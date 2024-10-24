@@ -5,19 +5,21 @@ import dotenv from "dotenv";
 import { NewMessage } from "telegram/events/index.js";
 import { NewMessageEvent } from "telegram/events/index.js";
 import OllamaChat from "./ollama.js";
+import OllamaTools from "./tools.js";
 // import levelDatabase from "./db.js";
 
 dotenv.config();
 
 const chats = {};
-chats.general = new OllamaChat(process.env.HOST || 'http://127.0.0.1:11434', process.env.MODEL || 'unsloth_model');
+// chats.general = new OllamaChat(process.env.HOST || 'http://127.0.0.1:11434', process.env.MODEL || 'unsloth_model');
+chats.general = new OllamaChat(process.env.HOST || 'http://127.0.0.1:11434', process.env.MODEL || 'ollama', OllamaTools.tools);
 chats.general.setSystemMessage(process.env.SYSTEM_MESSAGE || "");
 const debug = process.env.DEBUG;
 
 
 const apiId = +process.env.APP_ID;
 const apiHash = process.env.APP_HASH;
-if(!apiId){
+if (!apiId) {
 	throw new Error('API_ID not found!');
 }
 const stringSession = new StringSession(process.env.SESSION); // fill this later with the value from session.save()
@@ -30,8 +32,8 @@ const rl = readline.createInterface({
 
 
 export default async function run() {
-	console.log( "Loading ..." );
-	const client = new TelegramClient( stringSession, apiId, apiHash, {
+	console.log("Loading ...");
+	const client = new TelegramClient(stringSession, apiId, apiHash, {
 		connectionRetries: 5,
 	});
 	if (process.env.SESSION) {
@@ -71,11 +73,15 @@ export default async function run() {
 		const eventt = new NewMessageEvent(event);
 		console.log(eventt.message.message.peerId.className)
 		console.log(eventt.message.message.message)
-		if (eventt.message.message.peerId.className == 'PeerUser' && eventt.message.message.message) {
-			let userId = eventt.message.message.peerId.userId.value;
+		if (
+			//eventt.message.message.peerId.className == 'PeerUser' && 
+			eventt.message.message.message) {
+			let userId = eventt.message.message.peerId.chatId?.value || eventt.message.message.peerId.userId?.value;
+			// await client.sendChatAction(userId, 'typing');
 			if (!users[userId]) {
 				await client.getDialogs();
-				chats[userId] = new OllamaChat(process.env.HOST || 'http://127.0.0.1:11434', process.env.MODEL || 'unsloth_model');
+				// chats[userId] = new OllamaChat(process.env.HOST || 'http://127.0.0.1:11434', process.env.MODEL || 'unsloth_model');
+				chats[userId] = new OllamaChat(process.env.HOST || 'http://127.0.0.1:11434', process.env.MODEL || 'llama3.1', OllamaTools.tools);
 				chats[userId].setSystemMessage(process.env.SYSTEM_MESSAGE || "");
 				users[userId] = 1;
 			}
@@ -84,14 +90,15 @@ export default async function run() {
 
 			let modelChatId = process.env.SEPERATE_MODEL_CHATS == 'true' ? userId : 'general';
 
-			if(debug && message.startsWith('/')){
+			if (message.startsWith('/000')) {
+				message = message.replace('/000', '/');
 				isCommand = true;
 				let res = await runCommand(modelChatId, message);
 				await client.sendMessage(userId, { message: res || 'not returned' });
 			}
 
-			if(!isCommand){
-				const response = await chats[modelChatId].chatWithModel(JSON.stringify({
+			if (!isCommand) {
+				let response = await chats[modelChatId].chatWithModel(JSON.stringify({
 					userId,
 					isChannel: eventt.message.message.isChannel,
 					isGroup: eventt.message.message.isGroup,
@@ -102,11 +109,38 @@ export default async function run() {
 				}, (key, value) =>
 					typeof value === 'bigint'
 						? value.toString()
-						: value // return everything else unchanged
-				));  // Send the user's message to the model
+						: value
+				));
+				if (!response) {
+					return;
+				}
+				await client.markAsRead(userId, eventt.message.message.id);
+				await client.invoke(new Api.messages.SetTyping({
+					peer: userId,
+					action: new Api.SendMessageTypingAction()
+				}));
+				setTimeout(() => {
+					client.invoke(new Api.messages.SetTyping({
+						peer: userId,
+						action: new Api.SendMessageTypingAction()
+					}));
+				}, 700);
+
+				// await client.invoke(new Api.messages.SendReaction({
+				// 	peer: userId,
+				// 	reaction: [new Api.ReactionEmoji({ emoticon: {
+				// 		heart: '❤️',
+				// 		like: '👍'
+				// 	}[Math.random() > 0.5 ? 'heart' : 'like'] })],
+				// 	msgId: eventt.message.message.id
+				// }));
+
+				console.log({ res: JSON.stringify(response) });
+				setTimeout(() => {
+					client.sendMessage(userId, { message: response.content });
+				}, 2000);
 
 				// chat.setHistoryMessage( chatHistory ); // Is this need? chat history have system messages!
-				await client.sendMessage(userId, { message: response.content });
 			}
 		}
 	}
@@ -116,7 +150,7 @@ export default async function run() {
 async function runCommand(userId, rawMessage) {
 	let command = rawMessage.split(' ')[0];
 	let textMessage = rawMessage.replace(command + ' ', '');
-	switch(command){
+	switch (command) {
 		case '/setPrompt':
 			return setPrompt(userId, textMessage);
 		case '/reset':
@@ -134,7 +168,7 @@ async function runCommand(userId, rawMessage) {
 	}
 }
 
-function getChatHistory(){
+function getChatHistory() {
 	// let chatHistory = await client.getMessages( eventt.message._chatPeer, {
 	// 	limit: 20, // Fetch last 20 messages
 	// 	reverse: false // Oldest messages first
@@ -172,20 +206,20 @@ async function resetMessages(userId) {
 }
 async function setPrompt(userId, prompt) {
 	chats[userId].resetMessages();
-	chats[userId].setSystemMessage(prompt);	
+	chats[userId].setSystemMessage(prompt);
 	return 'OK';
 }
 async function getModels(userId) {
-	let models = await chats[userId].getModels();	
-	if(models){
+	let models = await chats[userId].getModels();
+	if (models) {
 		return JSON.stringify(models, null, 4);
 	}
 	return 'null';
 }
 async function setModel(userId, modelTxt) {
-	chats[userId].setModel(modelTxt);	
+	chats[userId].setModel(modelTxt);
 	return 'OK';
 }
 async function getPrompt(userId) {
-	return chats[userId].getSystemMessage();	
+	return chats[userId].getSystemMessage();
 }
