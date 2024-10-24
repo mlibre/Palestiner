@@ -1,63 +1,81 @@
 import { Ollama } from "ollama";
 
-export default class OllamaChat {
-	constructor(host = "http://127.0.0.1:11434", model = "llama3.1:8b", tools) {
+export default class OllamaChat
+{
+	constructor ( host = "http://127.0.0.1:11434", model = "llama3.1:8b", tools )
+	{
 		this.ollama = new Ollama({ host });
 		this.model = model;
 		this.tools = tools;
 		this.messages = [];
 	}
 
-	setSystemMessage(systemMessage) {
-		if (this.messages.length > 0 && this.messages[0].role === "system") {
+	setSystemMessage ( systemMessage )
+	{
+		if ( this.messages.length > 0 && this.messages[0].role === "system" )
+		{
 			this.messages[0].content = systemMessage;
 		}
-		else {
+		else
+		{
 			this.messages.unshift({ role: "system", content: systemMessage });
 		}
 	}
 
-	getSystemMessage() {
-		if (this.messages.length > 0 && this.messages[0].role === 'system') {
+	getSystemMessage ()
+	{
+		if ( this.messages.length > 0 && this.messages[0].role === "system" )
+		{
 			return this.messages[0].content;
-		} else {
-			return 'null';
+		}
+		else
+		{
+			return "null";
 		}
 	}
 
 	// Add a user message to the conversation
-	addUserMessage(content) {
-		this.messages.push({ role: 'user', content });
+	addUserMessage ( content )
+	{
+		this.messages.push({ role: "user", content });
 	}
 
 	// Add the model's response to the conversation
-	addModelMessage(message) {
-		this.messages.push(message);
+	addModelMessage ( message )
+	{
+		this.messages.push( message );
 	}
 
-	resetMessages() {
+	resetMessages ()
+	{
 		this.messages = [this.messages[0]];
 	}
 
-	getModels() {
+	getModels ()
+	{
 		return this.ollama.list();
 	}
 
-	setModel(modelTxt) {
+	setModel ( modelTxt )
+	{
 		this.model = modelTxt;
 	}
-	setHistoryMessage(conversation) {
+	setHistoryMessage ( conversation )
+	{
 		this.messages = conversation;
 	}
 
 	// Add the model's response to the conversation
-	addModelMessage(message) {
-		this.messages.push(message);
+	addModelMessage ( message )
+	{
+		this.messages.push( message );
 	}
 
 	// Function to send a chat request to the model
-	async sendMessage() {
-		try {
+	async sendMessage ()
+	{
+		try
+		{
 			const response = await this.ollama.chat({
 				model: this.model,
 				messages: this.messages,
@@ -65,36 +83,42 @@ export default class OllamaChat {
 			});
 
 			// Add the model's message to the conversation history
-			this.addModelMessage(response.message);
+			this.addModelMessage( response.message );
 
 			return response.message;
 		}
-		catch (error) {
-			console.error("Error during chat:", error);
+		catch ( error )
+		{
+			console.error( "Error during chat:", error );
 			return null;
 		}
 	}
 
 	// High-level function to handle conversations
-	async chatWithModel(content = null, systemMessage = null) {
+	async chatWithModel ( content = null, systemMessage = null )
+	{
 		// Set or update the system message if provided
-		if (systemMessage) {
-			this.setSystemMessage(systemMessage);
+		if ( systemMessage )
+		{
+			this.setSystemMessage( systemMessage );
 		}
 
 		// If there's a user message, add it to the conversation
-		if (content) {
-			this.addUserMessage(content);
+		if ( content )
+		{
+			this.addUserMessage( content );
 		}
 
 		// Send the message and return the model's response
-		for (let i = 0; i < 4; i++) {
-			try {
+		for ( let i = 0; i < 4; i++ )
+		{
+			try
+			{
 				const response = await this.sendMessage();
 				return response;
 			}
-			catch (err) { console.error(err) }
+			catch ( err ) { console.error( err ); }
 		}
-		return '';
+		return "";
 	}
 }
