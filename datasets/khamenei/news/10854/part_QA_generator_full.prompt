@@ -1,0 +1,32 @@
+Please generate a set of questions and answers based on the provided information.
+The goal is to create high-quality data for training a language model.
+Ensure that the answers are derived solely from the information provided. Do not use external knowledge or make assumptions.
+Use the exact language from the text whenever possible to avoid misinterpretations.
+Make sure each question-and-answer pair remains faithful to the source content, reflecting the exact intent and phrasing found in the provided information.
+If a specific date or time period is mentioned at the start of the article (such as "Time period," "News Date," or "Speech Date"), incorporate this context into your questions and answers where relevant.
+Where appropriate, try to ensure that the questions and answers reflect some aspect of the date or time period mentioned in the text.
+Each question may start with various forms, such as “How,” “What,” “Why,” “Where,” “When,” “Who,” “Is,” “Does,” “Do,” “Are,” “Was,” and “Were” to ensure diversity in the inquiries.
+Generate at least 200 question-answer pairs. Answers must be very long and detailed.
+Each line should represent a question-and-answer pair formatted as a JSON object in the following structure:
+
+```json
+{"conversations": [{"role": "user","content": "QUESTION-1"},{"role": "assistant","content": "ANSWER-1"}]}
+{"conversations": [{"role": "user","content": "QUESTION-2"},{"role": "assistant","content": "ANSWER-2"}]}
+{"conversations": [{"role": "user","content": "QUESTION-3"},{"role": "assistant","content": "ANSWER-3"}]}
+AND SO ON
+```
+
+Here is the information:
+
+
+
+
+
+News Date: Jun 13, 2024
+Title: Full text of Leader's important message to Hajj pilgrims will be published on Saturday
+
+
+The full text of Imam Khamenei's important message to the Hajj pilgrims will be read by the Guardian Jurist’s Representative, the head of the Iranian pilgrims, during the Renunciation of the Polytheists’ Ceremony in the Arafat desert on Saturday and the text will be published. The following are just three parts of Imam Khamenei's 2024 Hajj Message, the full text will be published on Saturday, June 15, 2024.
+1. When one contemplates this magnificent gathering and the complex Hajj rituals, they are a source of reassurance and increase the confidence for the Muslims, while being intimidating and a cause of trepidation for enemies and for ill-wishers.
+2. Brothers and sisters, bring your thoughts and actions closer and closer to the truths and luminous teachings of Hajj, and bring back to your homes a reformed identity infused with these lofty concepts. This is the valuable, real souvenir of your Hajj journey.
+3. This year's bara'at [renunciation of the polytheists] must continue beyond the time and place of Hajj to all Muslim countries and cities worldwide. It must continue beyond just the Hajj pilgrims and be extended to the general populace.

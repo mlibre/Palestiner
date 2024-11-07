@@ -1,0 +1,36 @@
+Please generate a set of questions and answers based on the provided information.
+The goal is to generate high-quality data for training a language model.
+Ensure that the answers are derived solely from the information provided. Do not provide responses based on external knowledge or assumptions.
+Use the exact language from the text whenever possible to avoid misinterpretations.
+Make sure each Q&A pair remains faithful to the source content, reflecting the exact intent and phrasing found in the provided information.
+Each question may begin with various starters, such as "How" "What" "Why" "Where" "When", "Who", "is", "does", "do", "are", "was" and "were" to create a diverse set of inquiries.
+Generate a minimum of 200 question-answer pairs. ANSWERS could be very long.
+Each line is a question-answer pair and should be formatted as a JSON object in the following structure:
+
+```json
+{"conversations": [{"role": "user","content": "QUESTION-1"},{"role": "assistant","content": "ANSWER-1"}]}
+{"conversations": [{"role": "user","content": "QUESTION-2"},{"role": "assistant","content": "ANSWER-2"}]}
+{"conversations": [{"role": "user","content": "QUESTION-3"},{"role": "assistant","content": "ANSWER-3"}]}
+AND SO ON
+```
+
+Here is the information:
+
+
+
+
+News Date: Jul 7, 2024
+Title: Martyr Raisi’s foreign policy was based on interaction with the world from a position of dignity
+
+Imam Khamenei, Leader of the Islamic Revolution, met with Iran’s Interim President Mohammad Mokhber and members of late President Ebrahim Raisi’s administration. The meeting took place in the Imam Khomeini Hussainiyah on July 7, 2024.
+During the meeting, which was the Leader’s final meeting with cabinet members of the 13th administration, he described this administration as one of “work, hope, and action” while praising Martyr Raisi as a president who was “truly hopeful and optimistic about the future and determined to achieve the set goals.”
+In describing Mr. Raisi’s outstanding qualities, Imam Khamenei highlighted the late president’s people-centric approach as an important trait and a true model for all officials. “By being among the people, our dear Raisi would feel the realities. He would listen to what people had to say and make their needs the basis for his plans.,” he stated.
+The Leader of the Islamic Revolution emphasized that "being among the people" is an Islamic requirement for officials and authorities. Quoting Imam Ali's (pbuh) letter to Malik Ashtar, he added, "Imam Ali (pbuh) stresses to Malik that the most beloved work in your eyes should be the one that gains the satisfaction and contentment of the masses. Martyr Raisi followed the same approach as Imam Ali (pbuh), and this too should serve as a model for all.”
+Highlighting another one of Martyr Raisi's outstanding qualities, Imam Khamenei emphasized Raisi’s genuine faith in domestic capabilities. "Raisi wholeheartedly believed in the potential and capacity of domestic resources to solve the country’s problems," he said.
+The Leader of the Islamic Revolution also highlighted the martyred president's other notable characteristic of expressing his religious and revolutionary stances with clarity, while avoiding doublespeak or the desire to gain approval from others.
+Imam Khamenei stated, "Raisi was straightforward in adhering to the revolutionary positions that he believed in, and he expressed them clearly. In his very first interview, he was asked about [whether Iran was seeking] relations with a particular country, “Will you be establishing relations?” He said, “No.” and adhered to this clear and straightforward position until the very end."
+The Leader of the Islamic Revolution praised Martyr Raisi for his indefatigability in work. “I would repeatedly say to Raisi that you need to rest some in order to be able to continue working in the future, otherwise you will collapse one day and not be able to work anymore. But he would say that he never got tired of work and he truly never did.”
+Imam Khamenei further stated, “he adhered to two aspects at the same time. One was interaction, and the other was dignity and respect. He was a person who interacted with others. He would sometimes talk on the phone with some European president for an hour or an hour and a half. Imagine actually talking on the phone for an hour and a half. He was a man of interaction, but his interaction was from a position of dignity He wasn’t harsh and didn’t repel others, and he wouldn’t break off talks or give away concessions unnecessarily.”
+In this regard, the Leader of the Islamic Revolution recalled that “Our martyred president interacted from a position of honor with all countries that were possible, giving priority to neighbors. As a result, following his martyrdom, several prominent world leaders described Raisi as an exceptional figure, rather than an ordinary politician, in their messages of condolence.”
+Imam Khamenei underscored that, “The qualities of Martyr Raisi were mentioned to illustrate a model and to record it in history to demonstrate that the head of the executive branch can possess a set of intellectual, emotional, and practical virtues and pursue them in his governing and individual performance.”
+In his concluding remarks, the Leader of the Islamic Revolution once again expressed his heartfelt gratitude to the people and the diligent efforts of government officials, the Interior Ministry, the national media, security officials and the police force for successfully organizing the elections without any incidents. He pointed out that “In some countries around the world, elections are accompanied by fights and quarrels, while in our country, the elections were held in the best possible manner.”

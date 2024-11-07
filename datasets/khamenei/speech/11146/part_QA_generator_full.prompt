@@ -1,0 +1,124 @@
+Please generate a set of questions and answers based on the provided information.
+The goal is to create high-quality data for training a language model.
+Ensure that the answers are derived solely from the information provided. Do not use external knowledge or make assumptions.
+Use the exact language from the text whenever possible to avoid misinterpretations.
+Make sure each question-and-answer pair remains faithful to the source content, reflecting the exact intent and phrasing found in the provided information.
+If a specific date or time period is mentioned at the start of the article (such as "Time period," "News Date," or "Speech Date"), incorporate this context into your questions and answers where relevant.
+Where appropriate, try to ensure that the questions and answers reflect some aspect of the date or time period mentioned in the text.
+Each question may start with various forms, such as “How,” “What,” “Why,” “Where,” “When,” “Who,” “Is,” “Does,” “Do,” “Are,” “Was,” and “Were” to ensure diversity in the inquiries.
+Generate at least 200 question-answer pairs. Answers must be very long and detailed.
+Each line should represent a question-and-answer pair formatted as a JSON object in the following structure:
+
+```json
+{"conversations": [{"role": "user","content": "QUESTION-1"},{"role": "assistant","content": "ANSWER-1"}]}
+{"conversations": [{"role": "user","content": "QUESTION-2"},{"role": "assistant","content": "ANSWER-2"}]}
+{"conversations": [{"role": "user","content": "QUESTION-3"},{"role": "assistant","content": "ANSWER-3"}]}
+AND SO ON
+```
+
+Here is the information:
+
+
+
+
+
+Speech Date: Oct. 4, 2024
+
+Imam Khamenei, the Leader of the Islamic Revolution, led the Friday Prayer on Oct. 4, 2024, in the Imam Khomeini (ra) Musalla, following the martyrdom of the Mujahid on the path of God, Martyr Sayyid Hassan Nasrallah, and on the eve of the first anniversary of the epic Operation Al-Aqsa Flood. The following is the full text of Imam Khamenei's sermons in Tehran's Friday Prayer.
+
+The first sermon
+
+In the Name of God, the Compassionate, the Merciful
+
+All praise is due to God, Lord of the Worlds; and may peace and greetings be upon our Master and our Prophet, Abul-Qasim al-Mustafa Muhammad; and upon his untainted, pure, chosen Progeny, particularly the Remnant of God on earth. O God, verily I praise You, seek Your help, ask for Your forgiveness, and put my trust in You. And may peace be upon the Imams of the Muslims, the protectors of the oppressed, and the guides of the believers. God, the Exalted, has stated, “But the faithful, men and women, are comrades of one another. They bid what is right and forbid what is wrong, maintain the prayer, give zakat, and obey Allah and His Messenger. It is they to whom Allah will soon grant His mercy. Indeed, Allah is Almighty, All-Wise” (Quran 9:71).
+
+I invite and encourage all my dear brothers and sisters, including myself, to observe piety with respect to God. Let us be cautious in our words and actions, making sure we don't overstep the boundaries set by God. This is the meaning of piety.
+
+In the verse that I recited, the important issue of the unity of the believers is raised. In Quranic terminology, this unity and solidarity is referred to as "Wilayah" [Guardianship], the Wilayah between believers. This concept is mentioned in several verses of the Quran. This specific verse describes God's mercy as the result of this Wilayah and solidarity, "It is they to whom Allah will soon grant His mercy." This means that if you Muslims maintain your bonds, relations, cooperation, and empathy with one another, God's mercy will be bestowed upon you.
+
+The Quran then states, “Indeed, Allah is Almighty, All-Wise.” The noble verse ends by referring to God's might and wisdom. Perhaps the reason for this is that God's mercy in this context is consistent with His greatness and wisdom. This is because God's mercy includes all kinds of virtues that He imparts to His servants. All the blessings, favors, and everything that takes place in life is a manifestation of God’s mercy. But in this noble verse, this mercy is in accordance with His "might" and "wisdom."
+
+Divine might means the Lord's power prevails over all of existence. Divine wisdom refers to the consistency and stability of all the laws of creation. Perhaps this verse is trying to draw attention to the fact that if Muslims unite and stand together, they will have the support of God's might and wisdom. They will be able to benefit from the Lord's infinite power and make use of God’s traditions and divine laws.
+
+So, what is Wilayah? It is the unity and solidarity between Muslims. This is the policy introduced by the Quran for Muslims. The Quran's policy for Muslims is that Muslim nations and groups should stand in solidarity with each other. It essentially promises that if you, Muslim nations, maintain this solidarity among yourselves, God’s might will support you. In other words, you will overcome all obstacles and triumph over all enemies. You will be supported by divine wisdom. All the laws of creation will work in your favor for your advancement. This is the logic and policy seen in the Quran.
+
+The opposite of this policy is the policy of Islam’s enemies – the world’s aggressors and Arrogant Powers. Their policy is to divide and rule. What they do is based on creating division. They have implemented this policy of creating division in Islamic countries using various tricks. And they haven’t stopped doing this until today. They cause the hearts of Islamic nations to become bitter toward one another. However, nations are awake today. I say that today is the day when the Islamic Ummah is capable of overcoming the tricks of the enemies of Islam and Muslims.
+
+The enemy of the Iranian nation is that same enemy of the Palestinian nation. It is the same enemy of the Lebanese nation. That same government is the enemy of the Iraqi nation. It is the enemy of the Egyptian nation. It is the enemy of the Syrian nation. It is the enemy of the Yemeni nation. The enemy is one and the same. The enemy’s methods vary in different countries. They use psychological warfare in some places and economic pressure in others. In some places, they use two-ton bombs and weapons. But in other places, our enemies pursue their policies with smiles. Nonetheless, the command center is one place. They receive orders from one place. They receive the order to attack Muslim communities and nations. If this policy succeeds in one country, meaning if they manage to dominate one country, they proceed to target the next nation once they are assured of their control over the previous country. Nations mustn’t allow this to happen.
+
+If a nation wants to avoid a crippling siege by the enemy, it must open its eyes from the very outset and be vigilant. When it sees the enemy going toward another nation, it should consider itself to be an ally of that innocent nation that is being oppressed. It should help them and cooperate with them so that the enemy doesn’t succeed there. If the enemy succeeds in that place, it will move on to the next target. We Muslims have been negligent with regard to this reality for many years and have witnessed the repercussions resulting from this. Today, we must no longer be negligent.  We need to remain vigilant. We must fortify our defenses and firmly protect our independence and dignity – from Afghanistan to Yemen, from Iran to Gaza and Lebanon, in all Islamic countries and nations. This is the first topic I wanted to discuss today.
+
+Today, I will be mostly addressing our Lebanese and Palestinian brothers who are faced with problems. I will address these issues in the next sermon. The second point I wanted to share now with you is that the Islamic rulings on defense have made our duty clear. Both Islam’s laws on defense, our own constitution, and international laws – laws that we didn’t help to draft. But even those laws affirm this undeniable fact that every nation has the right to defend its land, home, country, and interests against aggressors. What this means is that the Palestinian people have the right to stand against an enemy that has seized their land, occupied their homes, destroyed their farms, and ruined their lives. The Palestinian nation has this right [to defend itself]. This is a strong logic that international laws affirm today too.
+
+Who does Palestine belong to? Who are the Palestinian people? Where did these occupiers come from?! The Palestinian nation has the right to stand against them. No court, no institution, and no international organization has the right to object to the Palestinian nation standing firmly against the usurping Zionist regime! They have no right to object! Those who support the Palestinian people are fulfilling their duty. No one based on any international law has the right to object to the people of Lebanon and Hezbollah supporting Gaza and the uprising of the Palestinians. It is their duty, and they should have done this. This is both an Islamic ruling, a rational law, and based on internationally accepted reasoning. The Palestinians are defending their own land. Their defense is legitimate and supporting them is also legitimate. So all these attacks, including Operation Al-Aqsa Flood which took place around this time last year, were internationally legal, logical correct moves. And the Palestinians had this right.
+
+The Lebanese people’s vigorous defense of the Palestinian people falls under this same ruling. It is legal, reasonable, logical, and legitimate. No one has the right to criticize them for helping this defense. The brilliant work of our armed forces a few nights ago was also completely legal and legitimate. What our armed forces did was to inflict the minimum punishment on that usurping Zionist regime in response to its appalling crimes. It’s a bloodthirsty regime, a wolf-like regime, and the US’s rabid dog in the region. The Islamic Republic will carry out any duty it has in this regard with power, firmness, and decisiveness.
+
+In fulfilling this duty, we will neither hesitate nor act hastily. We won’t hesitate, neglect our duty, or act hastily. What is logical, reasonable, and correct according to military and political decision-makers will be carried out at the appropriate time, just as this has been done in the past. And if necessary, this will be done again in the future.
+
+In the second sermon, I will speak about the issue of Lebanon. The audience of that sermon will be our Arab brothers in the region. Therefore, I will deliver that sermon in Arabic.
+
+“In the Name of God, the Compassionate, the Merciful. I swear by Time! Man is indeed in loss, except those who have faith and do righteous deeds, and enjoin one another to [follow] the truth, and enjoin one another to patience” (Quran 103:1-3).
+
+May God’s greetings, mercy, and blessings be upon you.
+
+
+The second sermon
+
+In the Name of God, the Compassionate, the Merciful
+
+All praise is due to God, the Lord of the Worlds. I praise Him, turn to Him for help, plead Him for forgiveness, and put my trust in Him. And I ask Him to send blessings and greetings upon His beloved, the Great Messenger, our Master and Prophet, Muhammad al-Mustafa; upon his immaculate Household, especially the Commander of the Faithful; upon his beloved Zahra al-Marziah; upon Hassan and Hussain, the Masters of the Youth of Paradise; upon Ali ibn al-Hussain Zayn al-Abidin; upon Muhammad ibn Ali al-Baqir; upon Ja'far ibn Muhammad al-Sadiq; upon Musa ibn Ja'far al-Kadhim; upon Ali ibn Musa al-Reza; upon Muhammad ibn Ali al-Jawad; upon Ali ibn Muhammad al-Hadi; upon Hassan ibn Ali al-Zakki al-Askari; and upon Hujjat al-Qaem al-Mahdi. Greetings and peace be upon them all. And I send greetings and peace upon their chosen companions, upon those who follow them in virtue until the Day of Judgement, upon the supporters of those who are suppressed, and upon the guardians of the believers.
+
+I believe it is necessary to honor my brother, my dear one, who was a source of pride for me, an admired personage in the Islamic world and the articulate voice of the nations in the region, the shining jewel of Lebanon, Sayyid Hassan Nasrallah (may God be pleased with him), during this Friday Prayer in Tehran. I would also like to share a few words with everyone.
+
+The audience I'm addressing in this Friday Prayer sermon is the entire Islamic world, in particular the dear nations of Lebanon and Palestine. We are all grieving and mourning the martyrdom of our dear Sayyid. This is a significant loss and it has truly caused us to mourn. Of course, our mourning does not mean being depressed, distressed, or losing hope. It is of the same nature as mourning for the Master of the Martyrs, Hussain ibn Ali (pbuh). It is reviving, edifying, inspiring, and brings hope.
+
+Sayyid Hassan Nasrallah is no longer among us physically, but his true self, his spirit, his path, and his resonant voice are and will continue to be with us.
+
+He was the highly raised flag of the Resistance in the face of the tyrannical, plundering devils. He was the articulate voice and brave supporter of the oppressed. He brought assurance and courage to the fighters and seekers of truth. The scope of his popularity and influence extended beyond Lebanon, Iran, and Arab countries, and now his martyrdom will increase his influence even more.
+
+His most important message in words and action during his lifetime to you, the devoted people of Lebanon, was to not despair or become distraught over the loss of prominent figures such as Imam Musa Sadr, Sayyid Abbas Mousavi, and others; to not doubt about your struggle; to increase your efforts and your capabilities; to double your solidarity; to stand up to the aggressive, intrusive enemy; and to defeat them by strengthening your faith and putting your trust in God.
+
+My dear people! The devoted Lebanese nation! The exuberant youth of Hezbollah and Amal! My children! This is what our martyred Sayyid wants today from his people, the Resistance Front, and the entire Islamic Ummah.
+
+Since the evil, abject enemy is unable to inflict serious harm on the solid Hezbollah organization, Hamas, Islamic Jihad, and other organizations that fight on the path of God, it considers terrorism, destruction, bombardment, the killing of civilians, and bringing grief to unarmed people to be a sign of its victory.
+
+What is the consequence of this? The consequence of this behavior is an increase in the anger and motivation of the people. It fosters the emergence of more fighters, commanders, leaders, and an increase in the number of those who are willing to sacrifice their lives. It tightens the noose around the neck of the bloodthirsty wolf and will ultimately lead to the elimination of its disgraceful existence from the scene.
+
+My dear ones! Grieving hearts find solace in the remembrance of God and in seeking His help. The destruction will be repaired, and your patience and steadfastness will bring you honor and dignity.
+
+For some 30 years, our dear Sayyid was at the forefront of a difficult battle. He developed Hezbollah step by step, "Like a seed that sends forth its shoot, then it grows and becomes stout standing firmly on its stem, impressing the sowers, so that He may enrage the faithless by them. Allah has promised those of them who have faith and do righteous deeds forgiveness and a great reward" (Quran 48:29).
+
+With Sayyid's [Nasrallah's] planning, Hezbollah grew step by step, patiently, logically, and naturally. It showed the effect of its existence to its enemies in different stages by pushing back the Zionist regime, "It gives its fruit every season by the leave of its Lord" (Quran 14:25).
+
+Hezbollah is truly a "Shajarah Tayyibah" [Blessed Tree]. Hezbollah and its heroic, martyred leader are the essence of Lebanon's historic virtues and identity.
+
+We Iranians have long been familiar with Lebanon and its merits. Figures such as al-Shahid Muhammad ibn Makki al-Amili, Ali ibn Abd al-Aali al-Karaki, al-Shahid  Zayn al-Din al-Amili, Hussain ibn Abd al-Samad al-Amili and his son Muhammad Baha al-Din who was known as Sheikh Baha'i, along with many other religious and scholarly figures, have enriched Iran with the blessing of their extensive knowledge in the periods of the Sarbadars and Safavid governments in the 8th, 10th, and 11th centuries of the Hijri calendar.
+
+It is our duty and the responsibility of all Muslims to repay our debt to the wounded, bloodied Lebanon. Hezbollah and the martyred Sayyid have taken steps in defense of Gaza and jihad for Al-Aqsa Mosque, delivering a blow to the usurping, cruel regime. They have provided a vital service to the entire region and the entire Muslim world. The insistence of the US and its allies on ensuring the safety of the usurping regime serves as a cover for their lethal policy of changing the [Zionist] regime into a tool for seizing all the resources of this region and using it [that regime] in major global conflicts.
+
+Their policy is to turn the [Zionist] regime into a gateway for exporting energy from the region to the Western world while facilitating the import of goods and technology from the West to the region. This [approach] ensures the survival of the usurping regime and increases the entire region's dependency on it. The [Zionist] regime's brutal, reckless behavior toward the [Resistance] fighters stems from its self-serving desire for such a situation.
+
+This reality helps us to realize that every blow to the Zionist regime by any individual or group is not only a service to the entire region but to all of humanity.
+
+Surely, this Zionist and American dream is a vain, unattainable delusion. The [Zionist] regime is like "an evil tree, uprooted from the ground," which according to God's true words, "lacks any stability" (Quran 14:26).
+
+This malicious regime is rootless, fallacious, and unstable, and it has only managed to stand on its feet with difficulty with US support. And God willing, this too will not last for long. The clear reason for this statement is that for a year now, despite spending several billion dollars in Gaza and Lebanon, and despite the comprehensive support given by the United States and several other Western governments, the enemy has failed in its confrontation with several thousand fighters and mujahid on the path of God, who are besieged and blocked from receiving any assistance from the outside. The only thing it [the Zionist regime] has been able to do is to bomb homes, schools, hospitals, and centers with a dense unarmed population.
+
+Today, even the Zionist criminal gang has gradually come to the conclusion that they will never triumph over Hamas and Hezbollah.
+
+You, the resilient people of Lebanon and Palestine, who are courageous fighters and patient, appreciative people, know that these martyrdoms and spilled blood will not weaken your movement. [On the contrary], they will strengthen it. In Islamic Iran, during roughly three months of one summer (in the year 60 AHS), tens of our prominent, distinguished figures were assassinated, including a prominent figure like Sayyid Mohammad Beheshti, a president like Mohammad Ali Rajaee, and a prime minister like Mohammad-Javad Bahonar. Scholars such as Ayatollah Madani, Qoddusi, Hashemi Nejad, and others like them were also assassinated. Each of these individuals were considered to be a pillar of the Revolution at either a national or local level, and losing them was not easy. But the Revolution didn't stop, it didn't retreat, and instead it sped up. Today too, the Resistance in the region will not retreat as a result of these martyrdoms. The Resistance will be victorious.
+
+The Resistance in Gaza has captured the world's attention and brought honor to Islam. In Gaza, Islam has stood firm against all that is evil and foul. There is no noble human being who doesn't applaud this steadfastness and curse the ruthless, bloodthirsty enemy.
+
+Al-Aqsa Flood and the year-long Resistance of Gaza and Lebanon have brought the usurping regime to a point where its main concern is to protect its existence, which is the same concern that the Zionist regime had in the early years of its cursed creation. This means that the struggles of the fighters of Palestine and Lebanon have been able to push back the Zionist regime to the position it was in 70 years ago.
+
+The primary cause of war, insecurity, and backwardness in this region is the existence of the Zionist regime and the presence of governments that claim to seek peace and calm in the region. The main problem facing the region is foreign interference. The governments of the region are capable of establishing peace and security. Achieving this great, liberating goal requires the efforts and struggles of nations and governments.
+
+God is with those who tread this path. "And Allah is indeed able to help them" (Quran 22:39).
+
+May God's greetings and peace be upon the martyred leader, [Sayyid Hassan] Nasrallah; the martyred hero, [Ismail] Haniyeh; and the honorable commander, Lieutenant General Qasem Soleimani.
+
+“In the Name of God, the Compassionate, the Merciful
+
+When Allah’s help comes with victory, and you see the people entering Allah’s religion in throngs, celebrate the praise of your Lord, and plead to Him for forgiveness. Indeed, He is all-clement" (Quran 110:3).

@@ -1,0 +1,130 @@
+Please generate a set of questions and answers based on the provided information.
+The goal is to create high-quality data for training a language model.
+Ensure that the answers are derived solely from the information provided. Do not use external knowledge or make assumptions.
+Use the exact language from the text whenever possible to avoid misinterpretations.
+Make sure each question-and-answer pair remains faithful to the source content, reflecting the exact intent and phrasing found in the provided information.
+If a specific date or time period is mentioned at the start of the article (such as "Time period," "News Date," or "Speech Date"), incorporate this context into your questions and answers where relevant.
+Where appropriate, try to ensure that the questions and answers reflect some aspect of the date or time period mentioned in the text.
+Each question may start with various forms, such as “How,” “What,” “Why,” “Where,” “When,” “Who,” “Is,” “Does,” “Do,” “Are,” “Was,” and “Were” to ensure diversity in the inquiries.
+Generate at least 200 question-answer pairs. Answers must be very long and detailed.
+Each line should represent a question-and-answer pair formatted as a JSON object in the following structure:
+
+```json
+{"conversations": [{"role": "user","content": "QUESTION-1"},{"role": "assistant","content": "ANSWER-1"}]}
+{"conversations": [{"role": "user","content": "QUESTION-2"},{"role": "assistant","content": "ANSWER-2"}]}
+{"conversations": [{"role": "user","content": "QUESTION-3"},{"role": "assistant","content": "ANSWER-3"}]}
+AND SO ON
+```
+
+Here is the information:
+
+
+
+
+
+Speech Date: 2009-11-12
+----
+
+The Iran's Supreme Leader’s View of Palestine
+----
+
+
+# Supporting Palestine
+
+The results of discord in the Islamic Ummah
+
+If Muslims were united today, and if they relied on the spirituality of Islam, the enemy could not openly persecute and torture the Palestinian nation in its own homeland. The events of Palestine deeply sadden and agitate all moral human beings, even those who are not very religious.
+
+
+The responsibility to support the Palestinian nation
+
+Supporting the oppressed Palestinian people and their valiant uprising is the religious duty of all of us. Today a Muslim country, which is covered in blood, is calling on the Islamic Ummah to support it from the middle of the battlefield. I will never forget the Palestinian woman who was crying for help from Muslims in front of reporters’ cameras.
+
+All Muslims and Arabs must voice their support for the legitimacy of the Palestinian people’s battle. In international gatherings, it must be stressed that the defenseless people of Palestine whose rights have been violated are entitled to fight for their lost rights. Therefore, continuation of Intifada and resistance is the absolute right of the Palestinian people, and international laws must respect this right. Unfortunately, these laws are usually interpreted in favor of the arrogant global powers’ wishes.
+
+Muslims can no longer stand the relentless suppression of the Palestinian nation. They can no longer stay silent. Israel must understand that if it continues suppressing the Palestinian nation, they will be faced with strong, serious, and practical reaction of all Arabs and Muslims.
+
+
+The world of Islam and the issue of Palestine
+
+The world of Islam’s support for Palestine
+
+The issue of Palestine is the most important international issue of Islam. For many years, they have gradually made Muslims used to the occupation of their homes. It is not just a matter of Muslim homes being occupied. It is much more serious. The problem is that the global enemies of Islam have occupied a portion of Muslims’ homeland and are using it to attack the ranks of Muslims. They are using these lands to thwart their wishes and movements.
+
+It is a matter of a nation that is forced to suffer from oppression, hardships, and displacement. It is a matter of a country being occupied. It is a matter of establishing a malignant tumor at the heart of Islamic countries, the point where the western and eastern parts of the world of Islam are connected. It is a matter of relentless oppression imposed on two consecutive generations of the Palestinian people. Now that the bloody Islamic uprising – which is currently led by the people of Palestine – has sounded the alarm for the ruthless and inhuman occupiers, the enemies’ methods are becoming more complicated and dangerous than ever before. And Muslims across the world must take this issue more seriously now and do something about it.
+
+Basically, the idea of establishing a Jewish government – or, more appropriately, a Zionist government – in this part of the world of Islam was proposed with long-term arrogant objective in mind. The idea of establishing such a government in this strategic region, which can be called the heart of the world of Islam, was proposed with the intention of continuing the domination of the then colonialists, headed by England, over the world of Islam in the long term. That is to say, this region connects Africa as the western part of the Muslim world to the Middle East as the eastern part of the Muslim world. This region is the meeting point of Asia, Africa, and Europe.
+
+The appropriate way to fight the usurping regime is what the Palestinians are doing today with unswerving commitment. And it is the duty of all Muslims to support them in their holy battle. Today no excuses are acceptable from Muslim governments. No excuses can justify their indifference to the issue of Palestine. The usurping regime is treating Palestinians with extreme brutality and has proven that it is prepared to commit any crime in order to achieve its dangerous expansionist goals. The Islamic uprising of the people of Palestine has ended all doubts, and it shows that the sapling of resistance is not withered yet despite the enemies’ great pressure and the treachery of the so-called allies. Actually, this sapling has grown firmer and produced more fruits. Therefore, it is religiously obligatory that all nations and governments sincerely consider the issue of Palestine as the top priority and they should contribute as much as they can.
+
+There is no disagreement among any of the major Islamic denominations and Islamic jurisprudents that if a single part of Muslim territories is conquered and ruled by the enemies of Islam, all Muslims must consider it their duty to make selfless efforts to restore that territory.
+
+The Palestinian people – who have attracted the world of Islam’s attention today – must know that the Islamic Ummah admire them and pray for them. And if there was a way to help them, the Islamic Ummah would undoubtedly support them, no matter if Islamic governments were willing or reluctant to do so. The Islamic Ummah will not give up on Palestine. The Islamic Ummah will not ignore the Palestinian youth and people.
+
+
+Islamic governments’ support for Palestine
+
+Islamic governments are expected to provide the necessary means for the Palestine nation to defend itself. They are also expected to politically pressure those who support the Zionists’ interests throughout the world. They can do these things through their bilateral relations, international gatherings, public speeches, and political meetings.
+
+
+The Iranian nation’s support for the people of Palestine
+
+The Iranian nation has constantly supported, and will support, all oppressed nations and the nations that are under the yoke of arrogant powers. The Iranian nation will always stand by the valiant and faithful people of Palestine. The Iranian people will continue opposing the criminal Zionist regime, and their advice for their Palestinian brothers is that they should continue treading the divine path – that is, fighting the usurping enemy and its supporter – by relying on Allah until annihilation of the usurping Zionist regime. The great Iranian nation and the faithful and selfless basijis of Iran consider defending Palestine as their duty, and they believe no achievement is beyond their reach as long as they tread the path of Allah.
+
+
+Using media publicity to support the people of Palestine
+
+After World War II, Jews living throughout the world made hundreds and maybe thousands of movies in order to portray themselves as oppressed. They produced those movies in order to show that they were oppressed and in order to picture their opponents as – reasonably or exaggeratedly – oppressive. The oppression that has been imposed on the people of Palestine has never been imposed on another nation before. However, people throughout the world are unfortunately kept unaware of this oppression. This must be expressed in an appropriate way. Films must be made in this regard, and artistic works have to be produced in order to tell the world what is happening in Palestine.
+
+
+Part four: Solutions for the issue of Palestine
+
+The diplomatic solution
+
+Two solutions have been put forth for the complicated issue of Palestine: There is the right solution and the wrong solution. The wrong solution is to negotiate and reach an agreement with a usurper that is neither committed to human values, nor to international regulations, nor to UN resolutions. This solution is wrong, irrespective of its various forms. Israel has proven that it is not committed to any of its agreements. Even if they do sign an agreement, they will violate the agreement. It is not a good idea to feed this aggressor and make it strong enough to take the next step. That is not a solution. That is what Palestine has experienced for sixty years. Several resolutions were passed by the United Nations. Although even America – the patron of the Zionists – signed those resolutions in a political gesture, the usurping Zionist regime did not practice the resolutions.
+
+The logical solution is the one that must be accepted by all morally fair individuals across the world and all those who believe in the conventions of the modern world. The logical solution is to hold a referendum among the people of Palestine, including all those who have been displaced from Palestine and who, of course, are willing to return to their homeland. That is a logical solution. Those who have been displaced in Lebanon, Jordan, Kuwait, Egypt, and other Arab countries should return to Palestine. And a referendum should be held among all those who used to live in Palestine before the year 1948 – that is, the year the fake Israeli government was established – including Muslims, Christians, and Jews. These people should be allowed to determine the government of Palestine in a referendum. That is democracy. Why is democracy good for all people of the world, but not for the people of Palestine? Why is it that all people of the world have the right to determine their destiny, but not the people of Palestine? No one has the slightest doubt that the regime currently ruling Palestine has come to power through coercion, deception, machinations, and pressurizing. No one has any doubts about that. The Zionists did not come to power through peaceful methods. They came to power partially through deception and machinations and partially through military coercion. Therefore, this regime was imposed on Palestine. The people of Palestine should come together and hold an election to choose their government. Once that government is established it can decide the fate of those who settled in Palestine after 1948. If that elected government decides that the new comers should stay, they can stay in Palestine. And if the elected government decides that the new comers should leave, they should leave Palestine. That solution would show respect for public vote, democracy, and human rights, and it would also be consistent with the current logic of the world.
+
+
+Pressuring the Zionist regime
+
+A usurer would never accept a logical solution unless it is forced to. That is where all the people somehow involved in the issue should consider themselves responsible. Arab governments, Islamic governments, international communities, and Islamic nations throughout the world, especially the Palestinian nation, should consider themselves responsible. They all have a duty to persistently follow up this logical solution and put it into practice. No one should say that such a solution is just an impractical dream. No, it is practical. The Baltic States became independent after they were part of the U.S.S.R. for more than forty years. About a hundred years before the formation of the Soviet Union, the counties of the Caucasus region were under the rule of Russian tsars. But they became independent. Today Kazakhstan, Azerbaijan, Georgia, and some other countries of that region are independent. So the solution is practical, but it requires courage and determination. Nations are courageous, fearless, and prepared. It is the governments, especially Arab governments, that have to fulfill their duty. Today Arab governments can take action and drum up support from their nations and increase their popularity in the issue of Palestine. If a government is supported by its people, then America cannot do anything to harm it. Such a government will not fear America, and it will not need to be considerate towards America.
+
+
+Using oil as a weapon
+
+As oil exporters, one of the most important things that Arab governments can do is to use oil more appropriately. What westerners are saying against using oil as a weapon is not true. Oil belongs to nations, and they should use it to further their interests. Americans also used wheat and foodstuff as a weapon in the past, and they are still doing so in many parts of the world. Why should Islamic and Arab countries be deprived of this right? As a symbolic act and as a sign of support for the Palestinian nation, they should stop exporting oil to all the countries that have good relations with Israel. Today the world is getting its energy, electricity, heat, and the driving force for its factories from Islamic countries. These are the essential elements of their life. If they do not get oil, their factories, lights, and heating systems will stop functioning.
+
+
+Financial support for the people of Palestine
+
+Financial support for the people of Palestine is not limited to governments. Today the people of Palestine are in need of food and medicine. Palestinian people are not beggars. They are honorable people who are dominated by the enemy. All people have a duty to help them. Just imagine what will happen if each member of the Islamic Ummah – in Iran and other places – donates only one thousand tomans [about one dollar] to the people of Palestine. One thousand billion tomans will be raised. This amount of money can make a great difference for the people of Palestine. Muslim countries must provide Palestinians with foodstuff, medicine, and whatever they need for continuing their resistance.
+
+
+The key to saving Palestine
+
+What has been imposed on the Palestinian nation by the usurping Zionist regime during the recent decades is enough to prove that it is futile to try to save the people of Palestine with the help of the domineering powers of the world and their allies in the region.
+
+The great Islamic Revolution in Iran showed that it is the nations that hold the key to solving big problems. It showed that individuals’ determination will overcome the wishes and plots of domineering powers, providing that they rely on God and trust His words. After what has happened in different parts of the world, today the important role of nations has been proven more than ever before. It is only the determination of the Palestinian people that can stand up to the ferocious Zionist regime and force it to retreat and accept defeat through their valorous resistance. The Palestinian nation should not, and cannot, seek its freedom and indisputable rights in summits held by the heads of Arab states. Such summits are at best useless, if not detrimental, to the oppressed Palestinians.
+
+Topp
+
+Resistance is the key to the salvation of the Palestinian nation
+
+It is not possible to save Palestine through begging the United Nations and the domineering powers, or the Zionist regime for that matter. The only way to save Palestine is to resist. The only way is Palestinian unity and monotheism, which is the inexhaustible driving force behind all jihads.
+
+The foundations of this resistance rest on Palestinian jihad groups and all faithful and steadfast Palestinians living inside and outside Palestine as well as on Muslim nations and governments throughout the world, especially religious scholars, intellectuals, political figures, and academics. If these two strong foundations are in place, fair people and aware minds – which have not been contaminated by the magic of the propaganda empire of the arrogant powers and the Zionists –will rush to the aid of the oppressed, and the arrogant camp will be confronted with a flood of thoughts, emotions, and actions.
+
+The resistance and patience of the people of Palestine and full support of Islamic countries for them will make it possible to break the satanic spell of occupation over Palestine. The great power of the Islamic Ummah can solve the problems of the world of Islam, especially the urgent and acute Palestinian issue.
+
+
+The awakening of the Palestinian nation
+
+Fortunately, the Islamic Awakening of the Palestinian nation has provided it with bright prospects. Today the young generation of the Palestinian people relies on Islamic faith and is fighting in the name of God. The battle is very promising, and it is obvious that the enemies – including the Zionist rulers, America and other supporters of Israel as well as the regional traitors – are confused and terrified by this new movement. They have resorted to everything in order to undermine this movement and conceal its direction. But religious faith will save the Palestinian nation. Islam will liberate Palestine from the clutches of the aggressors.
+
+The new generation of the Palestinian people has realized that it must stand up and fight if it wants to end the humiliation and pressure imposed on it. Sitting at a negotiation table will not help because those who opted for negotiation did not get anything out of it.
+
+
+Arab nationalism and the issue of Palestine
+
+It is sometimes said that Palestine is an Arab issue. What is the meaning of that? The comment is good as long as it means the Arabs enjoy stronger familial obligations and are more willing to make selfless efforts and help the people of Palestine. But no Muslim and no fair Arab can accept or not disparage the comment if it means that the heads of some Arab countries should totally ignore the Palestinian nation's cries for help, that they should cooperate with the usurping and oppressive enemy in important events like the Gaza tragedy, and that they should shout angrily at those who feel duty bound to help the people of Gaza.

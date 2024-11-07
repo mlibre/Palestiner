@@ -1,0 +1,138 @@
+Please generate a set of questions and answers based on the provided information.
+The goal is to generate high-quality data for training a language model.
+Ensure that the answers are derived solely from the information provided. Do not provide responses based on external knowledge or assumptions.
+Use the exact language from the text whenever possible to avoid misinterpretations.
+Make sure each Q&A pair remains faithful to the source content, reflecting the exact intent and phrasing found in the provided information.
+Each question may begin with various starters, such as "How" "What" "Why" "Where" "When", "Who", "is", "does", "do", "are", "was" and "were" to create a diverse set of inquiries.
+Generate a minimum of 200 question-answer pairs. ANSWERS could be very long.
+Each line is a question-answer pair and should be formatted as a JSON object in the following structure:
+
+```json
+{"conversations": [{"role": "user","content": "QUESTION-1"},{"role": "assistant","content": "ANSWER-1"}]}
+{"conversations": [{"role": "user","content": "QUESTION-2"},{"role": "assistant","content": "ANSWER-2"}]}
+{"conversations": [{"role": "user","content": "QUESTION-3"},{"role": "assistant","content": "ANSWER-3"}]}
+AND SO ON
+```
+
+Here is the information:
+
+
+
+
+Speech Date: 2006-04-14
+----
+
+Iran Leader’s Address to the 3rd Intl. Conference on the Holy Quds and Support for the Palestinian People
+----
+
+
+
+In the Name of Allah, the Beneficent, the Merciful
+
+All praise is due to Allah, the Lord of the Worlds, and peace and greetings be upon the great trustworthy prophet and upon his immaculate household and noble companions.
+
+I welcome you, the dear guests, scholars, intellectuals, statesmen, those engaged in jihad in the way of Allah and defenders of the ideological and jihadi frontiers of Islam. You have convened here to exchange views and find a remedy for the occupation of Palestine and the Holy Quds, the worst catastrophe that has happened to the Islamic Ummah in the present era owing to the plots and machinations of colonial powers.
+
+The coincidence of this conference and the birth anniversary of the Holy Prophet of Islam (peace be upon him and his immaculate household) in the year that has been designated by the Iranian nation as the 'Year of the Holy Prophet' should inspire all of us with a spirit of striving in the way of Allah, unity, determination and deep trust in divine promise and, God willing, it should prepare the ground for the bestowal of divine mercy and victory.
+
+The present age is the era of Islamic awakening, and Palestine lies at the center of this awakening. Almost sixty years have passed since the occupation of Palestine, and the oppressed Palestinian people have endured hard times and undergone various trials, ranging from desperate empty-handed resistance following the occupation, homelessness and displacement, witnessing the destruction of their homes and the massacre of their relatives and dear ones to seeking assistance from international organizations and engaging in futile political deals and the gamble of negotiation with the occupier, a gamble that yielded nothing but a heavy loss, and the mediation of those powers that were the main culprits in the creation and continuation of their plight and suffering.
+
+The outcome of this historic experience helped the new zealous generation of this valorous nation to reach the summit of awakening and broad-mindedness and caused the volcano of the Intifada to erupt.
+
+On the opposite front also various steps were taken on a different path, ranging from merciless and unbridled ferocity, genocide and wrathful demolition, military aggression against neighbors and claims to the territories from the Nile to the Euphrates, to political and economic encroachment on the region by profiting from the weakness and betrayal on the part of certain politicians of the Islamic world and, all of a sudden, confronting the awakening of the sleeping lion of Palestine and the roaring Intifada of a nation fed up with and rising against oppression.
+
+Today, the product of this adventurous process, which was reliant all the time on the money and might of the United States and Britain and their shameful support for Zionist criminals, is wavering and despair on the part of those ruling the usurper Zionist regime and their coming face to face with the sweeping wave of rising Islamic awakening.
+
+It is true that Palestine is even today the scene of the most heinous crimes in human history being committed by alien and usurper Zionists against the oppressed owners of Palestinian territories, and the most brutal atrocities are being openly and boastfully perpetrated by the Zionist regime in an unprecedented manner.
+
+However, a glance at what has happened over the past sixty years reveals a surprising reality, which serves as a lesson, and this reality is nothing but a great change on the scene and the shift of power from one front to the other both in Palestine and in the Middle East and the Islamic world.
+
+As a matter of fact, Western politicians had planned and given rise to the tragedy of the usurpation of Palestine with the intention of ensuring their long-term control and domination of Palestinian territories.
+
+Think of the Palestine of the 1940's: a land in the heart of the Arab world, a poor country with a weak government and an unaware nation and some neighbors installed by colonial powers. The wealthiest and most evil Western government with the greatest stockpile of arms and weapons, provoked by the Zionists, took it away from Muslims and entrusted it to a racist, belligerent and terrorist party which received support from all Western countries and from both of the world's two political blocs that were at odds with each other.
+
+It also received services from the puppet regimes in the region, including the Pahlavi regime in Iran and others that had turned their backs on Islam and Arab nations. It was provided with money, weapons, science and technology from everywhere. The United States acted as its guardian, attorney and caterer, and this was the only issue on which the former Soviet Union expressed no disagreement with the United States.
+
+The UN resolutions, even in their weak and conservative form, were utterly ignored by the forged and rogue Zionist regime. Relying on the backing and support on the part of the United States and Europe, the Zionist regime launched a military offensive on Egypt, Syria, Jordan and Lebanon and occupied some parts of their territories with the intention of annexing them.
+
+The Zionist regime openly and audaciously made threats to assassinate, kill and plunder, and notorious terrorists took power one after another in this regime, the last of whom was the infamous butcher of 'Sabra and Shatila'. For tens of years, the usurper Zionist regime remained on the scene of Palestine with a violent, inflexible and invincible face.
+
+On the opposite front, following initial weakness and abjection and failure of the half-done efforts of early years, various ideologies from pan-Arabism and nationalism to leftist views such as Marxism and the like were put to the test, and they all proved to be unsuccessful in practice.
+
+However, religious faith, to which the Palestinian nation strongly adheres, gradually created some bright spots on the dark and gloomy horizon, thanks to the firm determination of patient and persevering mujahedin, and gave rise to hopes and motivation. At this time, the sun of 'Islamic Revolution' suddenly rose in the east, and the hoisted flag of this divine revolution was embellished with the words 'Allah', 'the Islamic Sharia' and 'Palestine'.
+
+From this time on, the events began to take a different course, and the process of downfall of the usurper regime and decline in the absolute domination of the region by the United Sates, which had for many years acted as an accomplice with the usurper regime, was initiated.
+
+The jihadi groups devoted to Islam emerged in Palestine and Lebanon and constituted a generation of dedicated and determined combatants. Jihad and martyrdom were revitalized and the genuine power, namely the power of a nation that was intent on resistance and self-sacrifice, attained its due status in the equations of Palestine and the region.
+
+The immaculate blood of martyrdom-seeking youngsters and the presence on the scene of devoted combatants ready to make self-sacrifice refuted all the calculations of materialistic mammonists pursuing riches and pleasure and opened a new arena in which blood achieved victory over the sword.
+
+Today, some sixty years after that agonizing outset, the rightful front, vigorous and determined, cherishing noble objectives and inspired with faith which has strongly appealed to new generations, is steadily getting stronger in the arena of Palestine and inflicting military and political defeats one after another on the enemy in Lebanon and Palestine and taking firm strides toward a brilliant victory through its epical jihad.
+
+It seems as though this true word of Allah is addressed to them that "Allah promised you many acquisitions which you will take, then He hastened on this one for you and held back the hands of men from you, and that it may be a sign for the believers, and that He may guide you on a right path. And others which you have not yet been able to achieve, Allah has surely encompassed them, and Allah has power over all things." (the Holy Qur'an, 48: 20-21)
+
+The unjust front, for its part, following repeated retreats and losing its initial false hopes, is currently tormented with schism, hesitation and confusion. Its major patron, the United States, is itself confronting insolvable problems in the Middle East and facing increasing hatred on the part of nations of the region, or rather of the whole world.
+
+The slogan of annexing territories from the Nile to the Euphrates has been reduced to the slogan of maintaining security - by building a wall around itself. And to confront the rising Palestine, it knows no way but to resort to tanks, bombs, assassinations, bulldozers and prisons, namely the same tools the application of which for the past tens of years has turned the Palestinian nation into tempered steel, and the application of which from now on also will have no effect but to make Palestinians more determined and perseverant.
+
+My brothers and sisters!
+
+Today, the Palestinian nation is at the center of the arena of a difficult and long-term jihad, which is not only for the cause of Palestine, but which also constitutes a major part of the Islamic world's jihad on vast fronts against the aggressive, ruthless, plunderous arrogant powers.
+
+The Islamic world has experienced an awakening. The slogan of the rule of Islam in all Islamic countries is the major slogan among the youth, academics and intellectuals of these countries. The Islamic Iran, which has fostered and carried into effect the principle of religious democracy, has become stronger and more progressive day by day. And the pure Islam, which was introduced by Imam Khomeini and which was free of the influence of other ideologies and free of deviation, stagnation and reactionaryism, has taken root from the east to the west of the Islamic world and influenced the political sphere of many countries.
+
+The bitter and venomous taste of Western liberal democracy, which the United States has hypocritically been trying to portray through its propaganda as a healing remedy, has hurt the body and soul of the Islamic Ummah and burned the hearts of Muslims. Iraq and Afghanistan and Lebanon, Guantanamo and AbuGhuraib and other secret dungeons and, above all, the cities in the Gaza Strip and the West Bank have shown to our nations the real meaning of ‘liberty' and ‘Western human rights', the most shameless and impudent propagator of which is the American regime. Today, Western liberal democracy is as disgraced and detested in the Islamic world as was the East's socialism and communism yesterday.
+
+Muslim nations aspire to attain freedom, honor, progress and dignity under the banner of Islam. They are fed up with the 200-year domination by alien and colonial powers, and they are tired of imposed poverty, suffering and backwardness.
+
+We are entitled and able to return the humiliation and contempt on the part of domineering powers to themselves. This is the genuine feeling of our nations and the present generation of the Islamic world from East Asia to the heart of Africa. And this is the arena of an intricate, multifaceted, demanding and long-term jihad. If we call Palestine the standard and banner of this jihad, there will be no overstatement in what we have said.
+
+Today, all Muslim nations should treat the issue of Palestine as their own issue. This is a mysterious key that will open the doors of deliverance to the Muslim Ummah. Palestine should return to the Palestinian nation, and a single Palestinian government, elected by all Palestinians, should administer the entire Palestinian territories.
+
+The fifty-year efforts of Britain and the United States and Zionists to remove the word 'Palestine' from world maps and incorporate the Palestinian nation into other nations have proved futile, and their pressures, injustice and cruelty have yielded contrary results. Today, the Palestinian people are livelier, more valorous and more efficient than their predecessors who lived some sixty years ago.
+
+This process which has emerged as a result of faith, jihad and the glorious Intifada will continue, and this divine promise will be fulfilled that "Allah has promised to those of you who believe and do good that He will most certainly make them rulers in the earth as He made rulers those before them, and that He will most certainly establish for them their religion which He has chosen for them, and that He will most certainly, after their fear, give them security in exchange; they shall serve Me, not associating aught with Me; and those who disbelieve henceforth, they are rebellious and wicked." (the Holy Qur'an, 24: 55)
+
+It is also possible in a vaster arena, namely the Islamic world, to achieve the noble objective of freedom from domination, bullying and intervention on the part of colonialists and live under the banner of Islam, but this is contingent on a jihad of a different kind, namely a scientific, political and moral jihad.
+
+The Iranian nation has been engaged in this kind of jihad for the past 27 years and tasted its sweet results. The pillars of this sacred jihad are faith, philanthropy and scholarship, and its main feature is that any firm step taken in the course of this jihad will make the next step firmer, and the passing of any stage of this jihad will make it easier to pass the next stage.
+
+The main prerequisite for success in the jihad of Palestine and jihad of the Islamic world is insistence on principles. The enemy is always trying to subvert Islamic principles, and through deceits, promises and threats, it is demanding that Muslims renounce their principles. If their principles are destroyed or diluted, Muslim nations will lose their guiding criteria, and they will be subjected to the rules defined by the enemy. It is clear what the result will be.
+
+It often happens that some individuals in the Islamic world, following the enemy's line, recommend that Muslim nations relinquish their principles, and they call this an expedient and a prudent measure! Whatever their motive is - whether it is negligence, avarice or treachery - they are the ones that this divine statement applies to:
+
+"But you will see those in whose hearts is a disease hastening towards them, saying: We fear lest a calamity should befall us; but it may be that Allah will bring the victory or a punishment from Himself, so that they shall be regretting on account of what they hid in their souls." (the Holy Qur'an, 5: 52)
+
+They will receive no benefit from helping the enemy. The United States and the West have often shown that they will not show mercy even to those who are submissive to them, and that they will easily discard and do away with those collaborating with them when they no longer need them.
+
+There are others who highlight the power of the enemy and warn those seeking truth and justice against friction with this enemy. There is a dangerous paralogism in their remark. First of all, the enemy that a wise individual will avoid friction with is not the enemy targeting the identity, vital interests and the very existence of this individual. Resistance against this kind of enemy is in absolute conformity with human wisdom, since it is clear that the unavoidable harm resulting from submission to this enemy is equal to the damage that may ensue from friction and confrontation with this enemy plus humiliation and abasement.
+
+Today, global arrogance, whose spokesman is the incumbent U.S. president, is explicitly threatening the Islamic world and talking about a crusade. The arrogant Zionist network and the intelligence organizations of the United States and Britain are fomenting conflict and disturbance all over the Islamic world. Through their financial support and encouragement, Islamic sanctities are affronted in the media and even the heavenly character of the Holy Prophet of Islam has not remained immune from their outrageous impertinence.
+
+Thousands of films, computer games and the like intended to stigmatize the face of Islam and Muslims are being produced and sent to the market. These are all added to the crimes involved in their aggression against Islamic countries and their massacres in Palestine and Iraq and Afghanistan and their self-serving intervention in Islamic countries to promote their illegitimate political and economic interests.
+
+Submission to this kind of enemy is absolutely against wisdom, and resistance is the only way recommended by common sense and the Sharia. Besides, exaggerating the power of the enemy is also one of the stratagems used by the enemy.
+
+Money, political and military force and modern stockpiled weapons will scare those governments that are deprived of popular support. The military overpowering of a regime such as that of Saddam who did not enjoy public support and whose army had no sense of faith and jihad is not proof of power. The United States has not been able to overcome the Iraqi nation. Iraq was an arena in which the falsity of U.S. claims to advocate democracy was exposed, and in which U.S. invincibility was challenged and scorned.
+
+If nations and the governments relying on nations benefit from trust in Almighty Allah and self-confidence and engage in resistance, they will never be defeated, and their endurance of the hardships of jihad will bestow on them victory and disprove the fictitious myth of the aggressive enemy's invincibility. This has been corroborated by the realities of the present and not so remote a past and, God willing, it will hold true in future as well.
+
+The chain of U.S. plots against Iran, Iraq, Syria and Lebanon that are aimed at preparing the way for U.S. domination of the Middle East, with the Zionist regime holding supremacy in the region, will never succeed and will yield nothing but fatal damage to U.S. politicians.
+
+If U.S. administration happens to follow reason and listen to the voice of conscience, it should forgo its stubbornness and grudge against the Iraqi nation and submit to that nation's vote in favor of its elected government, respect the government elected by the Palestinian nation and rein its rogue and villainous ally the usurper Zionist regime, immediately release the oppressed inmates who are locked up in Guantanamo, AbuGhuraib and its other secret prisons, stop hatching plots against Syria, Lebanon and the Islamic Republic of Iran and not create tension in the sensitive Middle East region and the Persian Gulf through its ignorance.
+
+In conclusion, I would like to tell the valorous, steadfast Palestinian people that you have brought honor to the Islamic world through your jihad, patience and brilliant resistance and become a model nation. The heavy load of your great sufferings has not bent your backs, and the immaculate blood of your martyrs has deepened your firm determination and perseverance.
+
+Your enemy, despite its brutality and bloodthirstiness and despite its massacres, destructions, abductions and barbaric acts, has not been able to push you back, and today you are stronger than ever. The blood of great martyrs like Sheikh Ahmad Yassin, Fathi Shaqaqi and Rantisi and your martyrdom-seeking youngsters and other innocent martyrs has so far prevailed over the enemy's sword, and from now on also, by divine power, it will achieve greater victories.
+
+We in the Islamic Republic of Iran, and surely multitudes of Muslims and broad-minded individuals across the world, share in your grief and suffering. Your martyrs are our martyrs; your affliction and agony is also ours, and your victory is our victory.
+
+The great Islamic Ummah cannot remain silent and indifferent like the crafty West to the injustice that is being done to you and shake hands with your enemy. Whoever does so is antagonistic to you, and surely Muslim nations have nothing to do with this great sin.
+
+The Muslim Ummah is duty-bound to assist you in any way that is possible and help you continue treading this auspicious path. Trust the divine promise and rest assured that your agonizing pains and hardships that are inflicted on you by the unjust shedding of your blood and your daily sufferings will be remunerated by Almighty Allah.
+
+Finally, like the Master of Martyrs Imam Hussein-ibn-Ali (greetings be upon them), whose infant was martyred by a poisonous arrow while being held in his arms, say: "Indeed I can endure this calamity because it is being witnessed by Almighty Allah."
+
+And bear in mind that Almighty Allah has assured the ultimate victory of believers and perseverant mujahedin. "And the word of your Lord has been accomplished truly and justly; there is none who can change His words, and He is the Hearing, the Knowing." (the Holy Qur'an, 6: 115)
+
+Greetings be upon you and Allah's mercy and blessings

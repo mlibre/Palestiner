@@ -1,0 +1,39 @@
+Please generate a set of questions and answers based on the provided information.
+The goal is to create high-quality data for training a language model.
+Ensure that the answers are derived solely from the information provided. Do not use external knowledge or make assumptions.
+Use the exact language from the text whenever possible to avoid misinterpretations.
+Make sure each question-and-answer pair remains faithful to the source content, reflecting the exact intent and phrasing found in the provided information.
+If a specific date or time period is mentioned at the start of the article (such as "Time period," "News Date," or "Speech Date"), incorporate this context into your questions and answers where relevant.
+Where appropriate, try to ensure that the questions and answers reflect some aspect of the date or time period mentioned in the text.
+Each question may start with various forms, such as “How,” “What,” “Why,” “Where,” “When,” “Who,” “Is,” “Does,” “Do,” “Are,” “Was,” and “Were” to ensure diversity in the inquiries.
+Generate at least 200 question-answer pairs. Answers must be very long and detailed.
+Each line should represent a question-and-answer pair formatted as a JSON object in the following structure:
+
+```json
+{"conversations": [{"role": "user","content": "QUESTION-1"},{"role": "assistant","content": "ANSWER-1"}]}
+{"conversations": [{"role": "user","content": "QUESTION-2"},{"role": "assistant","content": "ANSWER-2"}]}
+{"conversations": [{"role": "user","content": "QUESTION-3"},{"role": "assistant","content": "ANSWER-3"}]}
+AND SO ON
+```
+
+Here is the information:
+
+
+
+
+
+News Date: Jul 21, 2024
+Title: Do not become indifferent about Gaza; it is still the most important issue
+
+Imam Khamenei, Leader of the Islamic Revolution, has met with the speaker and members of the Twelfth Iranian Parliament.
+During the meeting, which was held in the Imam Khomeini Hussainiyah on July 21, 2024, the Leader elucidated key points regarding the duties of the Parliament in the field of legislation and its dos and don'ts, while stressing the importance of effective interaction with the government. He also highlighted the necessity of a unified voice from the country’s pillars and underscored the active presence and significant role of the parliament in Iran’s foreign affairs and foreign policy.
+Pointing to the Parliament’s significant capacities in the field of international affairs, Imam Khamenei stated, “The parliament is a powerful leverage that world governments use in their interactions.” He considered the issue of Gaza as one of the examples of the Parliament's activities in the field of foreign affairs and emphasized the importance of working in this area. “Gaza is still the Islamic world’s number one issue. It is true that as the months have passed [since the 2023 Gaza war], the initial enthusiasm has waned in many people, But the fact of the matter is that it‘s just as important today as it was in the beginning, if not more,” he said.
+The Leader of the Islamic Revolution described the utilization of parliamentary support by governments as a common practice around the world, adding: “An example is the Comprehensive Iran Sanctions, Accountability, and Divestment Act (CISADA), which was passed by the US Congress and signed by the then-Democratic president, who was a hypocrite.”
+Imam Khamenei addressed the issue of sanctions and the role of the Parliament in neutralizing them. “We have the ability to lift sanctions through honorable means and even surpass that by neutralizing them. Neutralizing these sanctions is in our hands and there are proper ways to do this. The Parliament can also play a role in this regard.”
+Collaboration and constructive interaction between the branches of government was another important point that the Leader of the Islamic Revolution addressed in his speech. “The different pillars of the system must form a cohesive unit, and achieving this goal requires interaction, cooperation, and sometimes even leniency and turning a blind eye [on minor differences],” he said.
+The Leader of the Islamic Revolution emphasized an important point about the vigilance of the country's officials and politicians. “We are aware that the 'cyber army of the common enemy of all Iranians' disguises itself as competitors and political factions in the country, insulting their trusted religious and political figures in order to anger and provoke the opposing side into responding. Therefore, you should not assume that everything you see in cyberspace is the work of your political rivals.”
+The final issue that the Leader touched upon during his address, was the pressing matter of the Parliament’s impending vote of confidence on Mr. Pezeshkian’s proposed cabinet. He deemed it beneficial and essential to appoint the cabinet promptly after completing the necessary procedures, stating that both the lawmakers and the respected elected president have significant responsibilities in this matter.
+Imam Khamenei also detailed the required qualities and standards for the potential cabinet ministers of the 14th administration. "We should select individuals who are trustworthy, honest, religious, and deeply committed to the Islamic Republic."
+He added that, “Faith is an important indicator. Being optimistic about the future and having a positive vision and outlook are other important indicators. Those who have bleak prospects and believe that nothing can be done cannot be handed important and key responsibilities.”
+He listed adherence to Islamic laws, honesty and integrity, lack of a infamous record, possession of a national vision, avoidance of being immersed in political and factional issues, and competency as additional key requirements for members of the 14th cabinet. Imam Khamenei added that both the elected president and the parliament must adhere to these criteria as they share a joint responsibility in selecting the country's officials.
+He expressed hope that through the adherence of these criteria and the fulfilment of duties shared by the President and the Parliament, a good, efficient, religious, and Revolutionary cabinet will be appointed to effectively address the country’s issues.

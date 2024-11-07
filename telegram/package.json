@@ -1,0 +1,20 @@
+{
+	"name": "telegram",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "run.js",
+	"scripts": {
+		"start": "node run.js",
+		"test": "node tests/runTests.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"eslint": "^9.12.0",
+		"level": "^8.0.1",
+		"ollama": "^0.5.9",
+		"telegram": "^2.25.15"
+	}
+}

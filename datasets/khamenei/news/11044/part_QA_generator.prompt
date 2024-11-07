@@ -1,0 +1,32 @@
+Please generate a set of questions and answers based on the provided information.
+The goal is to generate high-quality data for training a language model.
+Ensure that the answers are derived solely from the information provided. Do not provide responses based on external knowledge or assumptions.
+Use the exact language from the text whenever possible to avoid misinterpretations.
+Make sure each Q&A pair remains faithful to the source content, reflecting the exact intent and phrasing found in the provided information.
+Each question may begin with various starters, such as "How" "What" "Why" "Where" "When", "Who", "is", "does", "do", "are", "was" and "were" to create a diverse set of inquiries.
+Generate a minimum of 200 question-answer pairs. ANSWERS could be very long.
+Each line is a question-answer pair and should be formatted as a JSON object in the following structure:
+
+```json
+{"conversations": [{"role": "user","content": "QUESTION-1"},{"role": "assistant","content": "ANSWER-1"}]}
+{"conversations": [{"role": "user","content": "QUESTION-2"},{"role": "assistant","content": "ANSWER-2"}]}
+{"conversations": [{"role": "user","content": "QUESTION-3"},{"role": "assistant","content": "ANSWER-3"}]}
+AND SO ON
+```
+
+Here is the information:
+
+
+
+
+News Date: Aug 14, 2024
+Title: A nontactical retreat - whether military, political, or economic - will bring divine wrath
+
+Imam Khamenei, the Leader of the Islamic Revolution, met with a number of the families of martyrs from the Kohgiluyeh and Boyer-Ahmad Province and the officials of the National Congress for the Commemoration of the Martyrs of the Kohgiluyeh and Boyer-Ahmad Province at noon today (Wednesday), August 14, 2024.
+In this meeting, Imam Khamenei identified the amplification of the enemies' capabilities as one of the main pillars of psychological warfare against the Iranian nation and Islamic Iran. He stated, "Since the victory of the Revolution, the enemies have been instilling fear in our nation through various means, suggesting that we should be afraid of the US, the UK, and the Zionists."
+He emphasized that [Imam Khomeini]'s greatest achievement was dispelling fear from the hearts of the nation and instilling self-belief and confidence among the people. "Our nation realized that by relying on its inherent strength, it could accomplish great feats, and the enemy's power was not as formidable as it seemed," he remarked.
+The Leader of the Islamic Revolution also stated that the enemy's objective in psychological warfare, particularly in the military arena, is to instill fear and force a retreat. "As the Quran states, a non-tactical retreat in any domain—whether military, political, or economic—will incur divine wrath," he added.
+Imam Khamenei identified feelings of weakness, isolation, and submission to the enemy's demands as major consequences of exaggerating the enemy's power in the political arena. He pointed out that governments, whether of large or small nations, which currently capitulate to the demands of the Arrogant Powers, could avoid submission if they relied on their people and capabilities, and recognized the enemy's true power without exaggeration.
+Imam Khamenei underscored the significant consequences of amplifying the cultural practices propagated by enemies, warning that such narratives can lead to a sense of passivity, causing individuals to become infatuated with the enemies' cultures while belittling their own. He stated that this passivity could result in the acceptance of foreign lifestyles and the adoption of foreign expressions and terminology.
+The Leader of the Islamic Revolution also highlighted the crucial role of martyrs and fighters in resisting the enemy's psychological warfare. "We must appreciate the young people who have stood firm against psychological warfare without fear or being swayed by others," he added.
+Imam Khamenei stressed the importance of creating cultural and artistic works that commemorate the martyrs and the Sacred Defense. He stated that the sacrifices and martyrdom of a nation's youth are a vital resource for the country's progress, and he urged that these legacies be preserved and protected from distortion or neglect.

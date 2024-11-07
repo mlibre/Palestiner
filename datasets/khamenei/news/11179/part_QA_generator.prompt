@@ -1,0 +1,45 @@
+Please generate a set of questions and answers based on the provided information.
+The goal is to generate high-quality data for training a language model.
+Ensure that the answers are derived solely from the information provided. Do not provide responses based on external knowledge or assumptions.
+Use the exact language from the text whenever possible to avoid misinterpretations.
+Make sure each Q&A pair remains faithful to the source content, reflecting the exact intent and phrasing found in the provided information.
+Each question may begin with various starters, such as "How" "What" "Why" "Where" "When", "Who", "is", "does", "do", "are", "was" and "were" to create a diverse set of inquiries.
+Generate a minimum of 200 question-answer pairs. ANSWERS could be very long.
+Each line is a question-answer pair and should be formatted as a JSON object in the following structure:
+
+```json
+{"conversations": [{"role": "user","content": "QUESTION-1"},{"role": "assistant","content": "ANSWER-1"}]}
+{"conversations": [{"role": "user","content": "QUESTION-2"},{"role": "assistant","content": "ANSWER-2"}]}
+{"conversations": [{"role": "user","content": "QUESTION-3"},{"role": "assistant","content": "ANSWER-3"}]}
+AND SO ON
+```
+
+Here is the information:
+
+
+
+
+News Date: Oct 19, 2024
+Title: Hamas is alive and will stay alive
+
+The following is the full text of Imam Khamenei’s message of condolence following the martyrdom of Yahya Sinwar, chairman of the political bureau of the Palestinian Islamic Resistance Movement (Hamas)
+
+In the Name of God, the Compassionate, the Merciful
+
+Dear Muslim Nations!
+
+Dear courageous youth of the region!
+
+The heroic mujahid, Commander Yahya al-Sinwar, has joined his martyred comrades. He was a shining image of Resistance and struggle. He stood with unwavering determination against the cruel, transgressive enemy, striking them with his acumen and courage. He struck the irreparable blow of October 7 [to the Zionist regime] that will be remembered as a part of the history of this region. And then he ascended to the realm of the martyrs with dignity and pride. For one like him who had dedicated his life to the battle against the usurping, cruel enemy, anything less than martyrdom would have been an unworthy fate.
+
+Indeed, his loss is painful for the Resistance Front. However, this front did not halt its progress in the wake of the martyrdoms of eminent figures such as Sheikh Ahmed Yassin, Fathi Shaqaqi, Rantisi, and Ismail Haniyeh. Similarly, it will not falter the least with the martyrdom of Sinwar either, God willing. Hamas is alive and will stay alive.
+
+As always, we will stand by the sincere mujahideen and fighters, with God’s help and guidance.
+
+I congratulate the family of Yahya al-Sinwar, his comrades, and all those devoted to jihad on the path of God on the martyrdom of our brother, Yahya al-Sinwar, and I offer my condolences for this loss.
+
+May God’s greetings and peace be upon His righteous servants.
+
+Sayyid Ali Khamenei
+Mehr 28, 1403
+[Oct. 19, 2024]

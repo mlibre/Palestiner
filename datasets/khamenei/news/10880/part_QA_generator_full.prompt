@@ -1,0 +1,42 @@
+Please generate a set of questions and answers based on the provided information.
+The goal is to create high-quality data for training a language model.
+Ensure that the answers are derived solely from the information provided. Do not use external knowledge or make assumptions.
+Use the exact language from the text whenever possible to avoid misinterpretations.
+Make sure each question-and-answer pair remains faithful to the source content, reflecting the exact intent and phrasing found in the provided information.
+If a specific date or time period is mentioned at the start of the article (such as "Time period," "News Date," or "Speech Date"), incorporate this context into your questions and answers where relevant.
+Where appropriate, try to ensure that the questions and answers reflect some aspect of the date or time period mentioned in the text.
+Each question may start with various forms, such as “How,” “What,” “Why,” “Where,” “When,” “Who,” “Is,” “Does,” “Do,” “Are,” “Was,” and “Were” to ensure diversity in the inquiries.
+Generate at least 200 question-answer pairs. Answers must be very long and detailed.
+Each line should represent a question-and-answer pair formatted as a JSON object in the following structure:
+
+```json
+{"conversations": [{"role": "user","content": "QUESTION-1"},{"role": "assistant","content": "ANSWER-1"}]}
+{"conversations": [{"role": "user","content": "QUESTION-2"},{"role": "assistant","content": "ANSWER-2"}]}
+{"conversations": [{"role": "user","content": "QUESTION-3"},{"role": "assistant","content": "ANSWER-3"}]}
+AND SO ON
+```
+
+Here is the information:
+
+
+
+
+
+News Date: Jun 25, 2024
+Title: Iranian nation will not permit others to determine their fate
+
+In a meeting with a large group of people, Imam Khamenei, Leader of the Islamic Revolution, congratulated the Iranian nation and all Muslims worldwide on the auspicious occasion of Eid al-Ghadir, while underscoring that the event of Ghadir serves as the foundation for the continuation of Islamic governance and the continuity of the Islamic way of life.
+The Leader made the remarks in the Imam Khomeini Hussainiyah on June 25, 2024 on the occasion of Eid al-Ghadir and on the eve of the presidential elections scheduled for Friday, June 28, 2024.
+As he pointed to some of the virtues of Imam Ali (pubh), Imam Khamenei emphasized, “We have learned the people-centered nature of the Islamic system and belief in the impact of each individual's presence on the fate of the country from our master.”
+During the meeting, the Leader of the Islamic Revolution discussed the upcoming presidential elections, noting that these elections will be held 40 days after the loss and funeral of President Raisi, a poignant event that drew millions in heartfelt tribute. Additionally, he expressed hope that God will grant glory to the Iranian nation in these elections.
+Imam Khamenei emphasized that the key to national pride in the elections lies in maximum public participation and the election of the most qualified candidate. He stated that, “The reason for the insistence and emphasis on maximum participation in the elections is that the most important impact of a high turnout is that it brings honor to the Islamic Republic.”
+While referring to the continuation of hostilities against the Islamic Republic from the moment of its formation until now, the Leader of the Islamic Revolution regarded the elections and high voter turnout as factors overcoming enmities. “People's participation is a part of the essence of the Islamic Republic. The most important demonstration of this is in the elections,” he added.
+Imam Khamenei criticized the belief held by certain politicians that progress can only be achieved by relying on foreign powers and the illusion that the US is the only path to development. “Those who are pinning their hopes on those outside the borders of the country do not see these capacities [within our borders]. When they do not see or understand the value of these capacities, they will naturally fail to make plans to use them,” he stated.
+The Leader of the Islamic Revolution underscored that despite facing hostility and challenges, the Islamic Republic has advanced with the help of God and without relying on foreigners. “The Iranian nation will not permit others to determine its fate in the future either,” he asserted.
+The Leader considered the act of not relying on foreigners as a demonstration of valor and national independence. With these two components, he noted, the Iranian nation will showcase its capability, character, and power, and it will garner further respect on the global stage.
+Elsewhere in his speech on the day of Eid al-Ghadir, Imam Khamenei attributed the despair of the disbelievers to the continuation of Islam's political sovereignty in the light of God's command to announce the succession and Imamate of Imam Ali (pbuh) by the Holy Prophet (pbuh). “The continuation of Islamic sovereignty and politics, which is manifested in Imamate, is the continuation of the spirit of Islam,” he said.
+Imam Khamenei attributed the continuation of the Islamic way of life to the continuation of Islamic sovereignty through the concept of Imamate and wilayah. “The goal of the 250-year-long endeavors and battles of the Imams – which some Shia scholars later pursued and continued, and in the present era with the endeavors of Imam Khomeini and the Iranian nation – was the sovereignty of Islam, in order to promote the Islamic way of life in society,” he stated.
+Imam Khamenei attributed the continuation of the Islamic way of life to the continuation of Islamic sovereignty through the concept of Imamate and wilayah. “The goal of the 250-year-long endeavors and battles of the Imams – which some Shia scholars later pursued and continued, and in the present era with the endeavors of Imam Khomeini and the Iranian nation – was the sovereignty of Islam, in order to promote the Islamic way of life in society,” he stated.
+In explaining the main principles of the Islamic way of life, Imam Khamenei highlighted the importance of justice, being strict towards disbelievers and showing mercy to fellow Muslims, the ruler's understanding of the people's sufferings and hardships, and the people’s support, obedience, and collaboration with the Islamic leadership. He emphasized that Ghadir serves as the basis for upholding these noble Islamic principles, and from this viewpoint, it can foster unity among different Islamic sects rather than being a cause of division between Shia and Sunni communities.
+The Leader of the Islamic Revolution praised Imam Ali (pbuh) for possessing virtues of the highest caliber, as described in Nahj al-Balaghah. These virtues, he explained, included unwavering faith that is free from even a trace of despair or doubt, compassion for all individuals regardless of their religion or creed, indescribable justice, and the ability to remain completely vigilant and discern the true intentions of enemies despite their deceptive appearance.
+The Leader of the Islamic Revolution praised Imam Ali (pbuh) for possessing virtues of the highest caliber, as described in Nahj al-Balaghah. These virtues, he explained, included unwavering faith that is free from even a trace of despair or doubt, compassion for all individuals regardless of their religion or creed, indescribable justice, and the ability to remain completely vigilant and discern the true intentions of enemies despite their deceptive appearance.

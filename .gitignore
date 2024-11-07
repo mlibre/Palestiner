@@ -1,0 +1,7 @@
+secrets.json
+tmp/
+.env
+**/node_modules
+/.cloud/
+.cloud/
+/.cloud

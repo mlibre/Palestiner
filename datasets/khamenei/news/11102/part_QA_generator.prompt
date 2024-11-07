@@ -1,0 +1,33 @@
+Please generate a set of questions and answers based on the provided information.
+The goal is to generate high-quality data for training a language model.
+Ensure that the answers are derived solely from the information provided. Do not provide responses based on external knowledge or assumptions.
+Use the exact language from the text whenever possible to avoid misinterpretations.
+Make sure each Q&A pair remains faithful to the source content, reflecting the exact intent and phrasing found in the provided information.
+Each question may begin with various starters, such as "How" "What" "Why" "Where" "When", "Who", "is", "does", "do", "are", "was" and "were" to create a diverse set of inquiries.
+Generate a minimum of 200 question-answer pairs. ANSWERS could be very long.
+Each line is a question-answer pair and should be formatted as a JSON object in the following structure:
+
+```json
+{"conversations": [{"role": "user","content": "QUESTION-1"},{"role": "assistant","content": "ANSWER-1"}]}
+{"conversations": [{"role": "user","content": "QUESTION-2"},{"role": "assistant","content": "ANSWER-2"}]}
+{"conversations": [{"role": "user","content": "QUESTION-3"},{"role": "assistant","content": "ANSWER-3"}]}
+AND SO ON
+```
+
+Here is the information:
+
+
+
+
+News Date: Sep 21, 2024
+Title: If the Islamic Ummah uses its inner strength, it can eradicate that cancerous tumor - the Zionist regime
+
+On the birth anniversaries of Prophet Muhammad (pbuh) and Imam Sadiq (pbuh), Ayatollah Khamenei, the Leader of the Islamic Revolution, met with a group of government officials, ambassadors of Islamic countries, and guests attending the Islamic Unity Conference, as well as a number of other people in the Imam Khomeini Hussainiyah on Sept. 21, 2024.
+Ayatollah Khamenei commenced his address by congratulating attendees on the birth anniversaries of Prophet Muhammad (pbuh) and Imam Ja’far Sadiq (pbuh). He described the birth of the Prophet of Islam (pbuh) as the prelude to the conclusion of prophethood, representing the ultimate and complete version of humanity’s happiness. “The divine prophets served as the guiding leaders of humanity’s journey throughout history, who not only showed people the way but also empowered individuals by awakening their innate nature and their power of thought and intellect, enabling them to discern the right path,” he stated.
+Highlighting Prophet Muhammad's (pbuh) 13-year struggle in Mecca, filled with hardships, difficulties, hunger, and sacrifices, and subsequent challenges faced during the Prophet of Islam’s migration from Mecca to Medina, Imam Khamenei emphasized that these factors laid the foundation for the Islamic Ummah. He noted that while there are numerous Islamic countries today and approximately two billion Muslims worldwide, it would be inaccurate to call this collective an “Ummah.” An Ummah, he explained, “is a group that moves in harmony and with motivation towards a common goal, whereas we Muslims today are scattered.”
+The Leader of the Islamic Revolution underscored that the division among Muslims serves only to empower the enemies of Islam and cultivates a reliance among certain Islamic countries on the support of the United States. He further emphasized that a unified Islamic front, unencumbered by division, could leverage its collective resources to establish a unified entity, one that would surpass the strength of all major powers and render unnecessary any dependence on the United States.
+Imam Khamenei outlined the influential factors in the formation of the Islamic Ummah. He noted that Islamic governments have the potential to play a significant role in this regard, but their motivations, he stated, is not strong enough. Imam Khamenei emphasized that it is the responsibility of the influential figures within the Islamic world – including politicians, scholars, scientists, academics, influential and intellectual classes, poets, writers, as well as political and social analysts – to instill this motivation among government officials.
+The Leader of the Islamic Revolution emphasized a crucial aspect concerning the call for unity directed towards the Muslim world from Iran. “In order for our message of unity to be perceived as genuine on the global stage, it is imperative that we demonstrate unity amongst ourselves and strive towards our true goals. Differences in opinion and perspective should not undermine the cooperation and solidarity of the nation,” he remarked.
+During his address, Imam Khamenei also drew attention to the blatant and shameless crimes committed by Israeli forces in Gaza, the West Bank, Lebanon, and Syrian, underscoring that the victims of these atrocities are not soldiers but ordinary civilians. “When the Zionist regime was unable to inflict any blows on the fighters in Palestine, they unleashed their blind and malicious fury on infants, children, and patients in hospitals.”
+He articulated that the root cause of this catastrophic situation lies in the Islamic community's failure to harness its inner strength, while reiterating the imperative of fully severing economic ties between Islamic countries and the Zionist regime. Furthermore, Imam Khamenei asserted that Islamic countries must act decisively to completely reduce their political relations with the Zionist regime and intensify their political and media initiatives to unequivocally express solidarity with the Palestinian people.
+At the beginning of this meeting, Iranian President, Masoud Pezeshkian, referred to the prophetic tradition of fostering unity and brotherhood among Muslims. He asserted that the path to preventing the aggressions and crimes of the Zionist regime lies in the solidarity and unified efforts of Muslims. President Pezeshkian emphasized that had Muslims been united and acted as a cohesive entity, the Zionist regime would not have had the audacity to perpetrate its current atrocities and kill women and children.
