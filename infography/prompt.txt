@@ -2,7 +2,7 @@ make a short infography content from this article. try to put the documents and 
 Follow this format:
 
 {{TITLE OF THE MYTH THAT NEEDS TO GET CLEARANCE}}
-{{FACT 1}} - {{YEAR OF THE FACT}}
-{{FACT 2}} - {{YEAR OF THE FACT}}
-{{FACT 3}} - {{YEAR OF THE FACT}}
-{{FACT 4}} - {{YEAR OF THE FACT}}
+{{FACT 1}} - {{YEAR OF THE FACT}} - {{TITLE OF THE FACT}}
+{{FACT 2}} - {{YEAR OF THE FACT}} - {{TITLE OF THE FACT}}
+{{FACT 3}} - {{YEAR OF THE FACT}} - {{TITLE OF THE FACT}}
+{{FACT 4}} - {{YEAR OF THE FACT}} - {{TITLE OF THE FACT}}
