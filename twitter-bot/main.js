@@ -16,7 +16,7 @@ const twitterClient = client.readWrite;
 
 // Constants
 const SEARCH_QUERY = "pro-Israel -is:retweet lang:en"; // Modify query as needed
-const TWEET_COUNT = 5; // Number of tweets to fetch
+const TWEET_COUNT = 10; // Number of tweets to fetch
 
 ( async () =>
 {
