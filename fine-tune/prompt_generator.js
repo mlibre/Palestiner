@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Paths to the prompt files
-const promptFile = './fine-tune/QA_generator.prompt';
-const extendedPromptFile = './fine-tune/QA_generator_full.prompt';
+const promptFile = 'QA_generator.prompt';
+const extendedPromptFile = 'QA_generator_full.prompt';
 
 // Function to find and concatenate the prompt with each part.txt file
 function findAndConcatPrompt(directory) {
@@ -43,6 +43,6 @@ function concatPrompt(partFilePath, promptFilePath) {
 }
 
 // Starting directory for processing
-const startingDirectory = './datasets';
+const startingDirectory = '../datasets';
 
 findAndConcatPrompt(startingDirectory);

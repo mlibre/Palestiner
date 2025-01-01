@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const resultFile = './fine-tune/final_QA_dataset.jsonl';
+const resultFile = 'final_QA_dataset.jsonl';
 fs.writeFileSync(resultFile, '');
 
 function findAndConcatQAJSONL(directory) {
@@ -61,7 +61,7 @@ function concatQAJSONL(filePath) {
     fs.appendFileSync(resultFile, concatenatedLines + '\n'); // Add a newline at the end
 }
 
-const startingDirectory = './';
+const startingDirectory = '../';
 
 findAndConcatQAJSONL(startingDirectory);
 fs.writeFileSync(resultFile, fs.readFileSync(resultFile, 'utf8').replace(/\n$/, ''));
