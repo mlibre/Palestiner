@@ -52,7 +52,7 @@ const TWEET_COUNT = 10; // Number of tweets to fetch
 
 
 		// Reply to each tweet
-		for ( const tweet of tweets )
+		for ( const tweet of tweets.data )
 		{
 			try
 			{
