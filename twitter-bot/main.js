@@ -14,7 +14,7 @@ const client = new TwitterApi({
 const twitterClient = client.readWrite;
 
 // Constants
-const SEARCH_QUERY = "#israel -is:retweet lang:en"; // Modify query as needed
+const SEARCH_QUERY = "(I stand with Israel) OR #IStandWithIsrael -is:retweet lang:en"; // Updated query
 const TWEET_COUNT = 100; // Number of tweets to fetch
 const TWEETS_DIR = path.join( __dirname, "tweets" ); // Directory containing tweet data
 
