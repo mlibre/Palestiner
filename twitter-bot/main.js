@@ -5,10 +5,10 @@ const axios = require( "axios" );
 
 // Twitter API credentials
 const client = new TwitterApi({
-	appKey: "icDKoBDN2aMCR4ciS322oQzSi",
-	appSecret: "1eVELjhpIAjNOK2ujEUndHaBwVkDtjs79RDQ0tpRO7qYfzY4ZO",
-	accessToken: "1874499453257736192-IIVLlQ2Dxr3C3HhViopww5SRAV5HNZ",
-	accessSecret: "z913VPOlekvlGQMEWxvaRs0FIIRdYXQxZWY6f5moDUAzj",
+	appKey: process.env.appKey,
+	appSecret: process.env.appSecret,
+	accessToken: process.env.accessToken,
+	accessSecret: process.env.accessSecret,
 });
 
 // Initialize Twitter client
