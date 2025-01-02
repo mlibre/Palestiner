@@ -2,3 +2,7 @@
 <https://developer.twitter.com/en/portal/projects/1874755922062430208/apps/29852365/keys>
 
 enable read, write
+check Web App, Automated App or Bot
+
+<https://localhost>
+<https://page.com>
