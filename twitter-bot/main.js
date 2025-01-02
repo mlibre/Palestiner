@@ -109,8 +109,8 @@ async function postTweet ( twitterClient, tweetText, replyToId, mediaId )
 			{
 				const response = await postTweet( twitterClient, tweetText, mostLikedTweet.id, mediaId );
 				const tweetId = response.data.id;
-				const authorUsername = response.data.author_id;
-				const tweetUrl = `https://twitter.com/${authorUsername}/status/${tweetId}`;
+				const authorUsername = mostLikedTweet.author_id;
+				const tweetUrl = `https://x.com/${authorUsername}/status/${tweetId}`;
 				console.log( `Tweet URL: ${tweetUrl}` );
 				console.log( `Successfully posted using account ${currentAccountIndex + 1}` );
 				console.log( `Replied to tweet ID: ${mostLikedTweet.id} with content from folder: ${randomFolder}` );
