@@ -7,11 +7,11 @@ function getTwitterAccounts ()
 	const accounts = [];
 	let accountNum = 1;
 
-	while ( process.env[`appKey${accountNum}`] )
+	while ( process.env[`apiKey${accountNum}`] )
 	{
 		accounts.push({
-			appKey: process.env[`appKey${accountNum}`],
-			appSecret: process.env[`appSecret${accountNum}`],
+			appKey: process.env[`apiKey${accountNum}`],
+			appSecret: process.env[`apiSecret${accountNum}`],
 			accessToken: process.env[`accessToken${accountNum}`],
 			accessSecret: process.env[`accessSecret${accountNum}`],
 		});
@@ -25,7 +25,7 @@ const twitterAccounts = getTwitterAccounts();
 
 // Constants
 const SEARCH_QUERY = "(I stand with Israel) OR #IStandWithIsrael -is:retweet lang:en";
-const TWEET_COUNT = 50;
+const TWEET_COUNT = 10;
 const TWEETS_DIR = path.join( __dirname, "tweets" );
 
 function initializeTwitterClient ( credentials )
