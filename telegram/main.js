@@ -199,3 +199,5 @@ function setModel ( userId, modelTxt )
 	chats[userId].setModel( modelTxt );
 	return "OK";
 }
+
+await main();
