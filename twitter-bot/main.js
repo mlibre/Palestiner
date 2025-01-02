@@ -15,7 +15,7 @@ const twitterClient = client.readWrite;
 
 // Constants
 const SEARCH_QUERY = "(I stand with Israel) OR #IStandWithIsrael -is:retweet lang:en"; // Updated query
-const TWEET_COUNT = 10; // Number of tweets to fetch
+const TWEET_COUNT = 50; // Number of tweets to fetch
 const TWEETS_DIR = path.join( __dirname, "tweets" ); // Directory containing tweet data
 
 ( async () =>
