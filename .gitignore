@@ -6,3 +6,4 @@ tmp/
 .cloud/
 /.cloud
 accounts
+db.json
