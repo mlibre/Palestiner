@@ -16,3 +16,8 @@
 !export HF_USERNAME=mlibre
 !export HF_TOKEN="token"
 !autotrain --config /content/dataset/config.yml
+
+
+
+
+# on linux autotrain app --host 127.0.0.1 --port 8000
