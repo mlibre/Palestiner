@@ -1,9 +1,13 @@
 !pip install -U autotrain-advanced > install_logs.txt 2>&1
-!autotrain setup --colab > setup_logs.txt
-!autotrain setup --update-torch
+from IPython.display import display
+from autotrain.app.colab import colab_app
+elements = colab_app()
+display(elements)
+
 
 from autotrain.params import LLMTrainingParams
 from autotrain.project import AutoTrainProject
+
 
 
 HF_USERNAME = "mlibre"
@@ -36,6 +40,7 @@ params = LLMTrainingParams(
     token=HF_TOKEN,
 )
 
-
 project = AutoTrainProject(params=params, backend="local", process=True)
 project.create()
+
+# You need to have access to https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct
