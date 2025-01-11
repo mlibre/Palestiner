@@ -1,8 +1,10 @@
+!rm -r /content/palestineInformationAI
+!rm -r /content/.ipynb_checkpoints
+
 !pip install -U autotrain-advanced > install_logs.txt 2>&1
-from IPython.display import display
-from autotrain.app.colab import colab_app
-elements = colab_app()
-display(elements)
+
+!autotrain setup --colab > setup_logs.txt
+!autotrain setup --update-torch
 
 
 from autotrain.params import LLMTrainingParams
@@ -15,7 +17,7 @@ HF_TOKEN = "token"
 
 
 params = LLMTrainingParams(
-    model="meta-llama/Llama-3.2-3B-Instruct", 
+    model="microsoft/Phi-3.5-mini-instruct",
     data_path="/content/dataset/", # /content/dataset/train.jsonl
     chat_template= None, #
     text_column="text", # the column in the dataset that contains the text
@@ -40,12 +42,9 @@ params = LLMTrainingParams(
     token=HF_TOKEN,
 )
 
-!rm -r /content/palestineInformationAI
 project = AutoTrainProject(params=params, backend="local", process=True)
 project.create()
 
-# Notes:
-# You need to have access to https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct
-# model="microsoft/Phi-3.5-mini-instruct",
-# model="meta-llama/Llama-3.2-3B-Instruct", 
-# !rm -r /content/.ipynb_checkpoints
+!export HF_USERNAME=mlibre
+!export HF_TOKEN=token
+!autotrain --config /content/dataset/config.yml

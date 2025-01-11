@@ -1,0 +1,33 @@
+task: llm
+base_model: microsoft/Phi-3.5-mini-instruct
+project_name: palestineInformationAI
+log: tensorboard
+backend: local
+
+data:
+  path: /content/dataset/
+  train_split: train
+  valid_split: null
+  chat_template: null
+  column_mapping:
+    text_column: text
+
+params:
+  trainer: sft
+  epochs: 5
+  batch_size: 2
+  lr: 1e-5
+  peft: true
+  quantization: int4
+  target_modules: all-linear
+  padding: right
+  optimizer: paged_adamw_8bit
+  scheduler: cosine
+  gradient_accumulation: 8
+  mixed_precision: bf16
+  merge_adapter: true
+
+hub:
+  username: ${HF_USERNAME}
+  token: ${HF_TOKEN}
+  push_to_hub: true
