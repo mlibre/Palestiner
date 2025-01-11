@@ -48,5 +48,5 @@ project = AutoTrainProject(params=params, backend="local", process=True)
 project.create()
 
 !export HF_USERNAME=mlibre
-!export HF_TOKEN=token
+!export HF_TOKEN="token"
 !autotrain --config /content/dataset/config.yml
