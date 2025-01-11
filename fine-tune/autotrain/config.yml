@@ -14,6 +14,8 @@ data:
 
 params:
   trainer: sft
+  # max_seq_length (int) — Maximum sequence length for the input. Default is 128. https://stackoverflow.com/questions/76547541/huggingface-how-do-i-find-the-max-length-of-a-model
+  # model_max_length (int) — Maximum length of the model input. Default is 2048.
   epochs: 5
   batch_size: 2
   lr: 1e-5
