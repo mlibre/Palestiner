@@ -5,8 +5,8 @@
 
 !pip install -U autotrain-advanced
 
-!autotrain setup --colab
 !autotrain setup --update-torch
+!autotrain setup --colab
 
 # !rm -r /content/palestineInformationAI
 # !rm -r /content/.ipynb_checkpoints
