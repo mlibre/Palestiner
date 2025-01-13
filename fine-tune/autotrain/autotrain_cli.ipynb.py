@@ -3,9 +3,9 @@
 # !rm -r /content/data
 # !rm -r /content/.config
 
-!pip install -U autotrain-advanced > install_logs.txt 2>&1
+!pip install -U autotrain-advanced
 
-!autotrain setup --colab > setup_logs.txt
+!autotrain setup --colab
 !autotrain setup --update-torch
 
 # !rm -r /content/palestineInformationAI
